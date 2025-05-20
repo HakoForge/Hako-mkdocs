@@ -1,2 +1,91 @@
-site_name: My Docs
-site_url: https://sitename.example
+# MkDocs configuration for HakoCore 4U Server Chassis documentation
+site_name: HakoCore 4U Server Chassis User Manual
+site_description: Complete user manual for the HakoCore 4U Server Chassis
+site_author: HakoForge
+site_url: https://docs.hakoforge.com
+
+# Repository information
+repo_name: hakoforge/hakocore-docs
+repo_url: https://github.com/hakoforge/hakocore-docs
+edit_uri: edit/main/docs/
+
+# Navigation structure
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Welcome: welcome.md
+    - Safety & Cautions: cautions.md
+    - Specifications: specifications.md
+  - Hardware Guide:
+    - Exploded View: hardware/exploded-view.md
+    - Panel Removal: hardware/panel-removal.md
+    - Powerboard: hardware/powerboard.md
+    - Power Harness: hardware/power-harness.md
+    - Wire Routing: hardware/wire-routing.md
+  - Installation:
+    - Fan Installation: installation/fan-installation.md
+    - PCB Installation: installation/pcb-installation.md
+    - Cage Installation: installation/cage-installation.md
+  - Backplanes:
+    - 12-SSD Backplane: backplanes/12-ssd-backplane.md
+    - 4-HDD Backplane: backplanes/4-hdd-backplane.md
+    - Mixed 4-Bay Backplane: backplanes/mixed-4-bay-backplane.md
+  - Support:
+    - Warranty: warranty.md
+
+# Theme configuration
+theme:
+  name: material
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: yellow
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: yellow
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+  logo: assets/hakoforge-logo.png
+  favicon: assets/favicon.ico
+
+# Plugins
+plugins:
+  - search
+  - glightbox
+
+# Extra CSS
+extra_css:
+  - stylesheets/extra.css
+
+# Extra JavaScript
+extra_js:
+  - javascripts/extra.js
+
+# Footer
+extra:
+  social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:help@hakoforge.com
+    - icon: fontawesome/brands/github
+      link: https://github.com/hakoforge
+  version:
+    provider: mike

@@ -1,0 +1,224 @@
+/*
+ * HakoForge Custom Styles for HakoCore Documentation
+ * Version: 1.0
+ */
+
+/* ===== COLOR VARIABLES ===== */
+:root {
+    --hf-yellow: #FFD700;
+    --hf-yellow-dark: #FFC107;
+    --hf-orange: #FF8C00;
+    --hf-orange-dark: #FF6F00;
+    --hf-dark: #1a1a1a;
+    --hf-dark-light: #2d2d2d;
+    --hf-gray: #666666;
+    --hf-light-gray: #f5f5f5;
+  }
+  
+  /* ===== HEADER CUSTOMIZATION ===== */
+  .md-header {
+    background-color: var(--hf-dark);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .md-header__title {
+    color: var(--hf-yellow);
+    font-weight: 600;
+  }
+  
+  .md-header__button {
+    color: var(--hf-yellow);
+  }
+  
+  /* ===== NAVIGATION ===== */
+  .md-nav__title {
+    color: var(--hf-orange);
+    font-weight: 600;
+  }
+  
+  .md-nav__item--active > .md-nav__link {
+    color: var(--hf-orange);
+    font-weight: 500;
+  }
+  
+  /* ===== CUSTOM ADMONITIONS ===== */
+  .md-typeset .admonition.hakoforge {
+    border-color: var(--hf-yellow);
+    border-left: 4px solid var(--hf-yellow);
+  }
+  
+  .md-typeset .admonition.hakoforge > .admonition-title {
+    background-color: var(--hf-yellow);
+    color: var(--hf-dark);
+    font-weight: 600;
+  }
+  
+  .md-typeset .admonition.hakoforge > .admonition-title::before {
+    background-color: var(--hf-dark);
+    content: "🔧";
+    mask: none;
+    -webkit-mask: none;
+  }
+  
+  /* Safety warning customization */
+  .md-typeset .admonition.danger {
+    border-left-color: #ff4444;
+  }
+  
+  .md-typeset .admonition.warning {
+    border-left-color: var(--hf-orange);
+  }
+  
+  /* ===== TABLES ===== */
+  /* Specification tables */
+  .md-typeset table.specs {
+    border: 2px solid var(--hf-yellow);
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .md-typeset table.specs th {
+    background-color: var(--hf-yellow);
+    color: var(--hf-dark);
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .md-typeset table.specs td {
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .md-typeset table.specs tr:nth-child(even) td {
+    background-color: var(--hf-light-gray);
+  }
+  
+  /* Connection tables */
+  .md-typeset table.connections th {
+    background-color: var(--hf-orange);
+    color: white;
+  }
+  
+  /* ===== BUTTONS ===== */
+  .md-button.hf-primary {
+    background-color: var(--hf-yellow);
+    color: var(--hf-dark);
+    border: 2px solid var(--hf-yellow);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+  }
+  
+  .md-button.hf-primary:hover {
+    background-color: var(--hf-orange);
+    border-color: var(--hf-orange);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  .md-button.hf-secondary {
+    background-color: transparent;
+    color: var(--hf-orange);
+    border: 2px solid var(--hf-orange);
+    font-weight: 600;
+  }
+  
+  .md-button.hf-secondary:hover {
+    background-color: var(--hf-orange);
+    color: white;
+  }
+  
+  /* ===== CODE BLOCKS ===== */
+  .md-typeset .highlight {
+    background-color: var(--hf-dark-light);
+    border-radius: 6px;
+    border: 1px solid var(--hf-gray);
+  }
+  
+  .md-typeset .highlight code {
+    color: var(--hf-yellow);
+  }
+  
+  /* ===== CONTENT BOXES ===== */
+  .specs-box {
+    background-color: var(--hf-light-gray);
+    border: 2px solid var(--hf-yellow);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .specs-box h3 {
+    color: var(--hf-orange);
+    margin-top: 0;
+    border-bottom: 2px solid var(--hf-yellow);
+    padding-bottom: 10px;
+  }
+  
+  /* ===== CUSTOM ICONS ===== */
+  .icon-hakoforge {
+    background-color: var(--hf-yellow);
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  /* ===== RESPONSIVE DESIGN ===== */
+  @media screen and (max-width: 768px) {
+    .md-typeset table.specs {
+      font-size: 0.8rem;
+    }
+    
+    .specs-box {
+      padding: 15px;
+      margin: 15px 0;
+    }
+  }
+  
+  /* ===== PRINT STYLES ===== */
+  @media print {
+    .md-header,
+    .md-sidebar,
+    .md-footer {
+      display: none !important;
+    }
+    
+    .md-main__inner {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .md-content {
+      max-width: none;
+    }
+  }
+  
+  /* ===== ACCESSIBILITY ===== */
+  .md-typeset a:focus,
+  .md-button:focus {
+    outline: 3px solid var(--hf-yellow);
+    outline-offset: 2px;
+  }
+  
+  /* High contrast mode support */
+  @media (prefers-contrast: high) {
+    :root {
+      --hf-yellow: #FFFF00;
+      --hf-orange: #FF8000;
+      --hf-dark: #000000;
+    }
+  }
+  
+  /* Reduced motion support */
+  @media (prefers-reduced-motion: reduce) {
+    .md-button.hf-primary:hover {
+      transform: none;
+    }
+    
+    * {
+      transition: none !important;
+      animation: none !important;
+    }
+  }
