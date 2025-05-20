@@ -67,6 +67,19 @@ theme:
   logo: assets/hakoforge-logo.png
   favicon: assets/favicon.ico
 
+# Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
 # Plugins
 plugins:
   - search
