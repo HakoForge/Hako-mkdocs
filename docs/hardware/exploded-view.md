@@ -6,100 +6,115 @@ Understanding the HakoCore chassis components and their assembly relationships i
 
 ## Component Identification
 
-The HakoCore chassis consists of nine main components that work together to provide a robust storage platform.
+The HakoCore 4U Server Chassis consists of 9 main components that assemble together to form the complete chassis system.
 
-### Component List
+### Primary Components
 
-| Item | Component Name | Function | Material |
-|------|---------------|----------|----------|
-| **1** | PSU Bracket | Secures ATX power supply | Powder-coated aluminum |
-| **2** | PCIe I/O Bracket | Motherboard rear I/O support | Powder-coated aluminum |
-| **3** | Chassis Body | Main structural frame | Powder-coated aluminum |
-| **4** | Chassis Lid | Removable top access panel | Powder-coated aluminum |
-| **5** | Rear Cage Bracket | Back row drive cage mounting | Powder-coated aluminum |
-| **6** | Middle Cage Bracket | Center row drive cage mounting | Powder-coated aluminum |
-| **7** | Top Front Fan Bracket | Upper front fan mounting | Powder-coated aluminum |
-| **8** | Bottom Front Fan Bracket | Lower front fan mounting | Powder-coated aluminum |
-| **9** | Front Panel | Magnetic access panel | Powder-coated aluminum |
+| Item | Component Name | Function | Assembly Notes |
+|------|---------------|----------|----------------|
+| **1** | PSU Bracket | Mounts ATX power supply | Rear-mounted, supports up to 200mm PSU |
+| **2** | PCIe I/O Bracket | Motherboard I/O support | Aligns with motherboard rear panel |
+| **3** | Chassis Body | Main structure housing | Contains all internal components |
+| **4** | Chassis Lid | Removable access panel | Slide-and-lift mechanism |
+| **5** | Rear Cage Bracket | Supports rear drive cages | Modular mounting system |
+| **6** | Middle Cage Bracket | Supports middle drive cages | Optional fan mounting |
+| **7** | Top Front Fan Bracket | Upper front fan mounting | Supports 3x 120mm fans |
+| **8** | Bottom Front Fan Bracket | Lower front fan mounting | Intake configuration |
+| **9** | Front Panel | Magnetic access panel | Tool-free removal |
+
+## Assembly Hierarchy
+
+### Level 1: Base Structure
+```
+Chassis Body (3) → Foundation for all components
+```
+
+### Level 2: Mounting Systems
+```
+├── PSU Bracket (1) → Power supply mounting
+├── PCIe I/O Bracket (2) → Motherboard support  
+├── Rear Cage Bracket (5) → Drive mounting
+└── Middle Cage Bracket (6) → Drive mounting
+```
+
+### Level 3: Airflow Components
+```
+├── Top Front Fan Bracket (7) → Intake fans
+├── Bottom Front Fan Bracket (8) → Intake fans
+└── Front Panel (9) → Airflow direction
+```
+
+### Level 4: Access Panel
+```
+└── Chassis Lid (4) → Top access for maintenance
+```
+
+## Material Specifications
+
+### Construction Materials
+- **Primary**: Powder-coated aluminum
+- **Hardware**: Stainless steel screws and fasteners
+- **Finish**: Durable powder coating in HakoForge signature styling
+
+### Structural Features
+- **Reinforced corners** for maximum rigidity
+- **Vibration dampening** design elements
+- **Cable management** integrated routing channels
+- **Hot-swap accessibility** throughout design
 
 ## Assembly Relationships
 
-### Primary Structure
-- **Chassis Body (3)** forms the foundation
-- **Chassis Lid (4)** provides top access
-- **Front Panel (9)** offers magnetic front access
+### Critical Fit Points
 
-### Internal Framework
-- **Cage Brackets (5 & 6)** mount perpendicular to chassis body
-- **Fan Brackets (7 & 8)** integrate with cage brackets
-- **PSU Bracket (1)** secures to rear of chassis
-- **PCIe I/O Bracket (2)** supports motherboard mounting
+1. **PSU Bracket alignment** with chassis power cable routing
+2. **PCIe I/O Bracket** registration with motherboard standards
+3. **Cage Bracket spacing** for proper drive bay alignment
+4. **Fan Bracket positioning** for optimal airflow patterns
 
-## Design Philosophy
+### Modular Design Benefits
 
-### Modular Construction
-Each component is designed for:
-- **Independent removal** for maintenance
-- **Flexible configuration** based on needs
-- **Tool-free or minimal-tool access**
-- **Robust mechanical connections**
-
-### Airflow Integration
-The component layout promotes optimal airflow:
-- **Front intake** through fan brackets and front panel
-- **Rear exhaust** past drive cages and out the back
-- **Unobstructed paths** through cage bracket design
+- **Customizable configuration** based on storage needs
+- **Service accessibility** without complete disassembly
+- **Upgrade path** for future expansion
+- **Maintenance efficiency** with removable components
 
 ## Assembly Sequence
 
-### Recommended Order
+### Recommended Installation Order
 
-1. **Chassis preparation**
-   - Inspect chassis body for damage
-   - Verify all mounting hardware
+1. **Install PSU Bracket** and mount power supply
+2. **Mount motherboard** with PCIe I/O Bracket support
+3. **Install Rear/Middle Cage Brackets** as needed
+4. **Mount Fan Brackets** for cooling configuration
+5. **Install drive cages** and PCBs
+6. **Complete cable routing** and connections
+7. **Install Front Panel** and Chassis Lid
+8. **Final testing** and verification
 
-2. **Internal framework**
-   - Install cage brackets
-   - Mount fan brackets
-   - Install PSU bracket
+### Tools Required
 
-3. **Access panels**
-   - Test fit chassis lid
-   - Attach front panel magnets
+- **Phillips head screwdriver** (magnetic tip recommended)
+- **Cable ties** for management
+- **Anti-static wrist strap** (optional but recommended)
+- **Flashlight or headlamp** for visibility
 
-4. **Component installation**
-   - Mount PCBs and cages
-   - Install power supply
-   - Connect wiring harnesses
+## Maintenance Considerations
 
-## Material and Finish
+### Regular Inspection Points
 
-### Construction Material
-- **Primary material**: Aluminum alloy
-- **Thickness**: Optimized for strength-to-weight ratio
-- **Joining method**: Precision welding and mechanical fasteners
+- **Mounting screws** - Check tightness quarterly
+- **Cable routing** - Verify no stress or pinching
+- **Air gaps** - Ensure adequate component spacing
+- **Panel alignment** - Verify proper fit and sealing
 
-### Surface Treatment
-- **Finish**: Powder coating
-- **Color**: Standard black (custom colors available)
-- **Properties**: Scratch-resistant, corrosion-resistant
-- **Texture**: Smooth finish for easy cleaning
+### Service Access
 
-## Maintenance Access
-
-### Removable Components
-All major components can be removed for:
-- **Deep cleaning** of chassis interior
-- **Component replacement** if needed
-- **Modification** for custom configurations
-- **Inspection** of structural integrity
-
-### Service Points
-- **Quick-release mechanisms** where possible
-- **Standard hardware** for easy sourcing
-- **Clear component labeling** for identification
-- **Service documentation** for each component
+Each component is designed for:
+- **Tool-free or minimal-tool** removal
+- **Clear access** to connections and mounting points
+- **Safe handling** with appropriate grip surfaces
+- **Component protection** during service
 
 ---
 
-Next: Learn about [Panel Removal](../panel-removal/) procedures for safe chassis access.
+Next: Learn about [Panel Removal](../panel-removal/) procedures for accessing internal components.

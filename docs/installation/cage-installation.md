@@ -1,239 +1,220 @@
 # Cage Installation
 
-Drive cages provide secure, hot-swappable mounting for storage devices while maintaining proper connectivity to the backplane PCBs. The HakoCore's modular cage system allows for flexible storage configurations.
+Drive cages provide the mechanical interface between storage devices and the HakoCore chassis. They enable hot-swappable operation and ensure proper alignment with PCB connectors.
 
 ![Cage Installation Overview](../../assets/cage-installation-overview.png)
 
 ## Overview
 
-The HakoCore chassis supports multiple cage types for different drive formats. Each cage mounts to dedicated brackets and provides both mechanical support and electrical connectivity for drives.
+The HakoCore supports multiple cage types to accommodate different storage configurations. Each cage is designed for specific drive formats and mounting requirements.
 
-### Cage Types Available
+### Cage Types
 
-- **2.5" SSD Cages**: For solid-state drives and 2.5" hard drives
-- **3.5" HDD Cages**: For traditional 3.5" hard drives
-- **Mixed Format Cages**: Supporting both 2.5" and 3.5" drives
+| Cage Type | Drive Format | Capacity | Hot-Swap | Use Case |
+|-----------|--------------|----------|----------|----------|
+| **12-SSD Cage** | 2.5" SSD/HDD | 12 drives | Yes | High-density SSD arrays |
+| **4-HDD Cage** | 3.5" HDD | 4 drives | Yes | Traditional bulk storage |
+| **Mixed Cage** | 2.5" + 3.5" | 2+2 drives | Yes | Hybrid configurations |
+
+### Design Features
+
+- **Tool-free installation** using thumb screws
+- **Keyed alignment** prevents incorrect mounting
+- **Hot-swap carriers** for individual drive access
+- **LED indicators** for drive status (if equipped)
+- **Airflow channels** for optimal cooling
 
 ## Pre-Installation Requirements
 
-### Tools Needed
+### Compatibility Check
 
-- ✅ **No tools required** - thumb screws for all mounting
-- ✅ **Clean workspace** with adequate lighting
-- ✅ **Anti-static precautions** when handling drives
-- ✅ **Drive labels** for organization (optional)
+Before installing cages, verify:
 
-### Component Verification
+1. **PCB compatibility** - Match cage type with installed backplane
+2. **Space availability** - Ensure chassis position is free
+3. **Airflow requirements** - Consider cooling needs
+4. **Future expansion** - Plan for additional drives or configuration changes
 
-Before installation, ensure you have:
+### Required Components
 
-1. **Correct cage type** for your drive format
-2. **Compatible PCB** already installed
-3. **Power and data connections** routed and ready
-4. **Drive carriers** (if using hot-swap drives)
+- ✅ **Drive cage** (correct type for application)
+- ✅ **Thumb screws** (included with cage)
+- ✅ **Hot-swap carriers** (if applicable)
+- ✅ **Mounting bracket** (installed in chassis)
 
-!!! info "Cage Compatibility"
-    Each cage type is designed for specific PCB backplanes. Verify compatibility before installation.
+!!! info "Pre-assembled Kits"
+    HakoCore kits typically include pre-installed cages. This guide covers replacement or reconfiguration scenarios.
 
 ## Installation Procedure
 
-### Step 1: Position the Cage
+### Step 1: Prepare the Mounting Area
+
+![Cage Mounting Preparation](../../assets/cage-mount-prep.png)
+
+1. **Power down the system** completely
+2. **Remove chassis lid** following panel removal procedure
+3. **Identify target mounting bracket** (rear or middle)
+4. **Clear any obstructions** from the mounting area
+5. **Verify PCB installation** is complete for this position
+
+### Step 2: Position the Cage
 
 ![Cage Positioning](../../assets/cage-positioning.png)
 
-1. **Identify mounting location** on the cage bracket
-2. **Orient the cage correctly** - connectors face toward PCB
-3. **Align mounting tabs** with bracket slots
-4. **Slide cage into position** until tabs engage
+1. **Orient cage correctly** - connectors toward PCB
+2. **Align cage tabs** with bracket mounting slots
+3. **Slide cage into position** against the bracket
+4. **Ensure flush contact** across all mounting points
 
 !!! warning "Proper Orientation"
-    Ensure the cage connectors face the installed PCB backplane. Incorrect orientation will prevent proper electrical contact.
+    Cages must be installed with drive connectors facing the PCB. Incorrect orientation will prevent proper drive connection.
 
-### Step 2: Secure with Thumb Screws
+### Step 3: Secure with Thumb Screws
 
-![Thumb Screw Installation](../../assets/thumb-screw-mounting.png)
+![Thumb Screw Installation](../../assets/thumb-screw-install.png)
 
-1. **Insert thumb screws** through cage mounting tabs
-2. **Thread into cage bracket** mounting points
-3. **Tighten finger-tight** - excessive force not required
-4. **Verify secure mounting** with gentle pull test
+1. **Insert thumb screws** through cage tabs into bracket
+2. **Hand-tighten** screws in diagonal pattern
+3. **Ensure even pressure** across all mounting points
+4. **Final tightening** - finger-tight plus quarter turn
 
-### Mounting Points
+### Step 4: Verify Installation
 
-Each cage has multiple mounting points for security:
+1. **Check cage stability** - no movement when pressed
+2. **Verify drive bay alignment** with PCB connectors
+3. **Test thumb screw security** with gentle testing
+4. **Ensure airflow clearance** around cage perimeter
 
-| Cage Size | Mounting Points | Thumb Screws |
-|-----------|----------------|--------------|
-| **2.5" Cage** | 4 points | 4 screws |
-| **3.5" Cage** | 6 points | 6 screws |
-| **Mixed Cage** | 6 points | 6 screws |
+## Drive Carrier Installation
 
-## Drive Installation
+### Hot-Swap Carrier Setup
 
-### Hot-Swap Drive Carriers
+Each drive requires a hot-swap carrier for proper installation:
 
-For systems with hot-swap capability:
+#### 2.5" Drive Carriers
+1. **Mount drive** to carrier using provided screws
+2. **Ensure connector alignment** with carrier slot
+3. **Check carrier latch** operation
+4. **Verify LED connections** if applicable
 
-1. **Install drives in carriers** before cage mounting
-2. **Ensure carrier compatibility** with cage type
-3. **Test drive insertion** before final assembly
-4. **Label drives and carriers** for identification
+#### 3.5" Drive Carriers  
+1. **Install drive rails** on drive sides
+2. **Mount drive** in carrier with proper orientation
+3. **Connect power and data** cables if pre-routed
+4. **Test carrier insertion** mechanism
 
-### Direct Drive Mounting
+### Drive Installation Process
 
-For non-hot-swap configurations:
+![Drive Installation](../../assets/drive-installation.png)
 
-1. **Install cages first**, then drives
-2. **Use proper drive screws** (provided with drives)
-3. **Support drive weight** during installation
-4. **Connect power and data** after mechanical mounting
+1. **Prepare drive** in appropriate carrier
+2. **Align carrier** with cage bay
+3. **Slide carrier** into bay until resistance felt
+4. **Press firmly** until carrier locks
+5. **Verify secure installation** with gentle pull test
 
-## Cable Connections
+## Multiple Cage Configurations
 
-### PCB Interface
-
-After cage installation:
-
-1. **Verify PCB alignment** with cage connectors
-2. **Check connector engagement** - should be automatic
-3. **Test electrical continuity** if possible
-4. **Secure any loose connections**
-
-### Power Distribution
-
-- **Power flows** from harness → PCB → cage → drives
-- **Each bay** receives individual power regulation
-- **LED indicators** show power and activity status
-- **Hot-swap protection** prevents damage during insertion
-
-## Multi-Cage Configurations
-
-### Planning Multiple Cages
+### Planning Multi-Cage Systems
 
 When installing multiple cages:
 
-1. **Install rear cages first** for easier access
-2. **Route cables** before mounting front cages
-3. **Plan airflow paths** between cages
-4. **Consider maintenance access** for future service
+1. **Start with rear-most** positions first
+2. **Work toward front** of chassis
+3. **Consider airflow patterns** in layout planning
+4. **Plan for cable routing** between cages
 
-### Cage Spacing
+### Load Distribution
 
-Maintain proper spacing for:
+Balance system load across cages:
 
-- **Airflow circulation** between drives
-- **Cable routing** behind cages
-- **Heat dissipation** from high-performance drives
-- **Future expansion** capabilities
-
-## Performance Considerations
-
-### Thermal Management
-
-Proper cage installation affects cooling:
-
-- **Ensure air gaps** between cages and chassis walls
-- **Align with fan placement** for optimal airflow
-- **Consider drive heat output** when planning layout
-- **Monitor drive temperatures** after installation
-
-### Vibration Control
-
-Minimize drive vibration:
-
-- **Secure all mounting screws** properly
-- **Use vibration dampers** if available
-- **Avoid over-tightening** mounting hardware
-- **Isolate high-vibration drives** when possible
+| Position | Recommended Use | Cooling Priority |
+|----------|----------------|------------------|
+| **Rear** | Lower-power drives | Standard airflow |
+| **Middle** | Mixed workloads | Enhanced cooling |
+| **Front** | High-performance drives | Maximum airflow |
 
 ## Troubleshooting
 
-### Common Installation Issues
+### Installation Issues
 
 | Problem | Cause | Solution |
-|---------|-------|----------|
-| **Cage won't align** | Wrong mounting position | Check bracket compatibility |
-| **Thumb screws won't thread** | Cross-threading | Back out and restart carefully |
-| **No electrical contact** | PCB misalignment | Reseat cage and check alignment |
-| **Drive won't insert** | Carrier incompatibility | Verify carrier type matches cage |
+|---------|-------|---------|
+| **Cage won't align** | Wrong bracket or orientation | Verify cage type and direction |
+| **Thumb screws won't engage** | Misalignment or debris | Clean threads and realign |
+| **Drives don't seat properly** | Cage misalignment | Remove cage and reinstall |
+| **Airflow restrictions** | Poor cage positioning | Adjust spacing and orientation |
 
-### Electrical Issues
+### Drive Recognition Issues
 
-If drives aren't detected:
+| Problem | Cause | Solution |
+|---------|-------|---------|
+| **Drive not detected** | Carrier not fully seated | Remove and reinstall carrier |
+| **Intermittent connection** | Dirty or damaged connector | Clean or replace carrier |
+| **Multiple drive failures** | PCB connection issue | Check PCB power and data cables |
 
-1. **Check PCB connections** to powerboard
-2. **Verify SAS/SATA cables** from HBA
-3. **Test with known-good drive** in different bay
-4. **Inspect cage-to-PCB interface** for damage
-
-## Maintenance and Service
+## Maintenance Procedures
 
 ### Regular Maintenance
 
-**Monthly checks:**
-- Verify thumb screws remain tight
-- Check for signs of vibration or loosening
-- Inspect electrical connections
-- Clean dust from cage ventilation areas
+- **Monthly**: Visual inspection of cage mounting
+- **Quarterly**: Check thumb screw tightness  
+- **Semi-annually**: Clean drive bays and carriers
+- **Annually**: Full system inspection and reseating
 
-### Drive Replacement
+### Carrier Maintenance
 
-For hot-swap systems:
-1. **Power down drive** via software if required
-2. **Remove drive carrier** by releasing lever/button
-3. **Install new drive** in carrier
-4. **Insert into cage** until fully seated
-5. **Verify detection** by system
+1. **Clean carrier contacts** with isopropyl alcohol
+2. **Lubricate latch mechanisms** lightly if needed
+3. **Check carrier alignment** in bay
+4. **Replace worn carriers** proactively
 
-### Cage Removal
+### Cage Replacement
 
-To remove cages for maintenance:
+When replacing cages:
 
-1. **Power down system** completely
-2. **Remove all drives** from cage
-3. **Disconnect any manual connections** (rare)
-4. **Remove thumb screws** in reverse order
-5. **Slide cage out** carefully
+1. **Document current configuration** with photos
+2. **Remove drives in carriers** safely
+3. **Uninstall old cage** carefully
+4. **Install new cage** following procedures above
+5. **Reinstall drives** and verify operation
 
-## Upgrade Considerations
+## Safety Considerations
 
-### Adding More Cages
+### Personal Safety
 
-When expanding storage:
+- **Power down completely** before cage work
+- **Support cage weight** during installation
+- **Use proper lifting technique** for heavy configurations
+- **Wear safety glasses** when working overhead
 
-- **Verify PCB capacity** for additional drives
-- **Check power budget** for new drives
-- **Plan cable routing** for new connections
-- **Consider cooling requirements** for added heat
+### Equipment Protection
 
-### Changing Cage Types
+!!! danger "Static Discharge Protection"
+    Use anti-static wrist strap when handling drives and carriers.
 
-To switch between cage formats:
+- **Handle drives carefully** - avoid drops or impacts
+- **Keep connectors clean** and protected
+- **Avoid forcing connections** - they should slide easily
+- **Store removed components** safely
 
-1. **Remove existing cages** and drives
-2. **Replace PCB backplane** if necessary
-3. **Install new cages** following standard procedure
-4. **Migrate data** from old to new drives
-5. **Update system configuration** as needed
+## Performance Optimization
 
-## Compatibility Matrix
+### Cooling Considerations
 
-### Cage-to-PCB Compatibility
+- **Plan airflow paths** around cage layouts
+- **Consider fan placement** for cage cooling
+- **Monitor drive temperatures** after installation
+- **Adjust configuration** if thermal issues arise
 
-| Cage Type | Compatible PCBs | Drive Support |
-|-----------|----------------|---------------|
-| **12-bay 2.5"** | 12-SSD backplane | 12 x 2.5" drives |
-| **4-bay 3.5"** | 4-HDD backplane | 4 x 3.5" drives |
-| **Mixed 4-bay** | Mixed backplane | 2 x 2.5" + 2 x 3.5" |
+### Access Planning
 
-### Drive Format Support
-
-Each cage type supports specific drive formats:
-
-- **2.5" cages**: SATA/SAS SSDs, 2.5" HDDs
-- **3.5" cages**: SATA/SAS HDDs (3.5" form factor)
-- **Mixed cages**: Both 2.5" and 3.5" formats
+Design cage layout for:
+- **Easy drive replacement** without tools
+- **Visual status monitoring** of all drives
+- **Cable management** accessibility
+- **Future expansion** capability
 
 ---
 
-Next: Review the [12-SSD Backplane](../../backplanes/12-ssd-backplane/) specifications and installation details.
+Next: Review the [Warranty](../../warranty/) information for support and coverage details.

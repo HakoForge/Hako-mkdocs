@@ -1,239 +1,209 @@
-# Cage Installation
+# Power Harness
 
-Drive cages provide secure, hot-swappable mounting for storage devices while maintaining proper connectivity to the backplane PCBs. The HakoCore's modular cage system allows for flexible storage configurations.
+The HakoCore power harness system distributes clean, regulated power from the central powerboard to individual PCBs throughout the chassis. This modular approach ensures efficient power delivery and simplified cable management.
 
-![Cage Installation Overview](../../assets/cage-installation-overview.png)
+![Power Harness System](../../assets/power-harness-system.png)
 
-## Overview
+## System Overview
 
-The HakoCore chassis supports multiple cage types for different drive formats. Each cage mounts to dedicated brackets and provides both mechanical support and electrical connectivity for drives.
+The power harness acts as the distribution network between the central powerboard and the individual drive backplanes, providing both power delivery and management capabilities.
 
-### Cage Types Available
+### Key Features
 
-- **2.5" SSD Cages**: For solid-state drives and 2.5" hard drives
-- **3.5" HDD Cages**: For traditional 3.5" hard drives
-- **Mixed Format Cages**: Supporting both 2.5" and 3.5" drives
+- **Modular design** with two harness lengths
+- **16-pin to 4-pin distribution** architecture  
+- **Color-coded connectors** for easy identification
+- **Hot-swappable connections** for maintenance
+- **Overcurrent protection** at the powerboard level
 
-## Pre-Installation Requirements
+## Harness Specifications
 
-### Tools Needed
+### Technical Details
 
-- ✅ **No tools required** - thumb screws for all mounting
-- ✅ **Clean workspace** with adequate lighting
-- ✅ **Anti-static precautions** when handling drives
-- ✅ **Drive labels** for organization (optional)
+| Parameter | Specification |
+|-----------|---------------|
+| **Input Connector** | 16-pin keyed connector |
+| **Output Connectors** | 4 x 4-pin power connectors |
+| **Wire Gauge** | 18 AWG for 12V, 16 AWG for high current |
+| **Current Rating** | 8A per 4-pin output |
+| **Voltage** | 12V DC distribution |
+| **Length Options** | Short (18") and Long (36") variants |
 
-### Component Verification
+### Harness Variants
 
-Before installation, ensure you have:
+#### Short Harness (18" / 457mm)
+- **Use case**: PCBs in first two rows from powerboard
+- **Routing**: Direct connection with minimal slack
+- **Quantity needed**: Typically 2-4 per system
 
-1. **Correct cage type** for your drive format
-2. **Compatible PCB** already installed
-3. **Power and data connections** routed and ready
-4. **Drive carriers** (if using hot-swap drives)
+#### Long Harness (36" / 914mm)  
+- **Use case**: PCBs in furthest rows from powerboard
+- **Routing**: Requires cable management along chassis edges
+- **Quantity needed**: Typically 1-2 per system
 
-!!! info "Cage Compatibility"
-    Each cage type is designed for specific PCB backplanes. Verify compatibility before installation.
+## Connection Architecture
 
-## Installation Procedure
+### Power Distribution Flow
 
-### Step 1: Position the Cage
+```
+PSU → Powerboard → 16-pin Harness → 4x 4-pin PCB Connectors
+```
 
-![Cage Positioning](../../assets/cage-positioning.png)
+### Connector Pinout
 
-1. **Identify mounting location** on the cage bracket
-2. **Orient the cage correctly** - connectors face toward PCB
-3. **Align mounting tabs** with bracket slots
-4. **Slide cage into position** until tabs engage
+#### 16-Pin Input Connector
+| Pin | Function | Wire Color |
+|-----|----------|------------|
+| 1-4 | +12V Rail 1 | Red |
+| 5-8 | Ground Rail 1 | Black |
+| 9-12 | +12V Rail 2 | Red |
+| 13-16 | Ground Rail 2 | Black |
 
-!!! warning "Proper Orientation"
-    Ensure the cage connectors face the installed PCB backplane. Incorrect orientation will prevent proper electrical contact.
+#### 4-Pin Output Connectors
+| Pin | Function | Wire Color |
+|-----|----------|------------|
+| 1 | +12V | Red |
+| 2 | Ground | Black |
+| 3 | +12V | Red |
+| 4 | Ground | Black |
 
-### Step 2: Secure with Thumb Screws
+## Installation Guidelines
 
-![Thumb Screw Installation](../../assets/thumb-screw-mounting.png)
+### Planning Your Installation
 
-1. **Insert thumb screws** through cage mounting tabs
-2. **Thread into cage bracket** mounting points
-3. **Tighten finger-tight** - excessive force not required
-4. **Verify secure mounting** with gentle pull test
+Before installation, determine:
 
-### Mounting Points
+1. **PCB locations** and distances from powerboard
+2. **Required harness lengths** for each connection
+3. **Cable routing paths** that avoid interference
+4. **Power requirements** for each PCB
 
-Each cage has multiple mounting points for security:
+### Step-by-Step Installation
 
-| Cage Size | Mounting Points | Thumb Screws |
-|-----------|----------------|--------------|
-| **2.5" Cage** | 4 points | 4 screws |
-| **3.5" Cage** | 6 points | 6 screws |
-| **Mixed Cage** | 6 points | 6 screws |
+#### Step 1: Route Harnesses
 
-## Drive Installation
+![Harness Routing](../../assets/harness-routing.png)
 
-### Hot-Swap Drive Carriers
+1. **Plan routing path** from powerboard to each PCB
+2. **Use appropriate length** harness for each connection
+3. **Route along chassis edges** for longer runs
+4. **Avoid crossing** over PCB mounting areas
 
-For systems with hot-swap capability:
+#### Step 2: Connect to Powerboard
 
-1. **Install drives in carriers** before cage mounting
-2. **Ensure carrier compatibility** with cage type
-3. **Test drive insertion** before final assembly
-4. **Label drives and carriers** for identification
+1. **Identify correct output** on powerboard (color-coded)
+2. **Align 16-pin connector** with powerboard output
+3. **Press firmly** until connector fully seats
+4. **Verify secure connection** with gentle pull test
 
-### Direct Drive Mounting
+#### Step 3: Connect to PCBs
 
-For non-hot-swap configurations:
+1. **Install PCBs** in their designated locations
+2. **Connect 4-pin outputs** to appropriate PCB inputs
+3. **Ensure keyed alignment** (connectors only fit one way)
+4. **Check all connections** are fully seated
 
-1. **Install cages first**, then drives
-2. **Use proper drive screws** (provided with drives)
-3. **Support drive weight** during installation
-4. **Connect power and data** after mechanical mounting
+#### Step 4: Secure Cables
 
-## Cable Connections
+1. **Use zip ties** at designated attachment points
+2. **Avoid overtightening** - allow for thermal expansion
+3. **Route excess cable** along chassis edges
+4. **Check for clearance** with moving parts
 
-### PCB Interface
+## Power Distribution Strategy
 
-After cage installation:
+### Load Balancing
 
-1. **Verify PCB alignment** with cage connectors
-2. **Check connector engagement** - should be automatic
-3. **Test electrical continuity** if possible
-4. **Secure any loose connections**
+Distribute power loads evenly across harnesses:
 
-### Power Distribution
+| Harness | Recommended Load | PCB Types |
+|---------|------------------|-----------|
+| **Harness 1** | Standard drives | 12-SSD or Mixed backplanes |
+| **Harness 2** | High-power drives | 4-HDD or high-performance SSDs |
+| **Harness 3** | Balanced load | Any backplane type |
+| **Harness 4** | Expansion | Future PCBs or redundancy |
 
-- **Power flows** from harness → PCB → cage → drives
-- **Each bay** receives individual power regulation
-- **LED indicators** show power and activity status
-- **Hot-swap protection** prevents damage during insertion
+### Power Budget Calculation
 
-## Multi-Cage Configurations
+Calculate total power requirements:
 
-### Planning Multiple Cages
+```
+Total Power = (PCB Count × PCB Power) + (Drive Count × Drive Power)
 
-When installing multiple cages:
+Example:
+- 3 PCBs × 10W = 30W
+- 12 SSDs × 8W = 96W  
+- Total: 126W (within single powerboard capability)
+```
 
-1. **Install rear cages first** for easier access
-2. **Route cables** before mounting front cages
-3. **Plan airflow paths** between cages
-4. **Consider maintenance access** for future service
+## Cable Management Best Practices
 
-### Cage Spacing
+### Routing Guidelines
 
-Maintain proper spacing for:
+!!! tip "Cable Management Tips"
+    - Route longer cables along outer chassis edges
+    - Group harnesses by destination area
+    - Maintain service loops near connectors
+    - Use color coding for easy identification
 
-- **Airflow circulation** between drives
-- **Cable routing** behind cages
-- **Heat dissipation** from high-performance drives
-- **Future expansion** capabilities
+### Securing Methods
 
-## Performance Considerations
+1. **Zip ties at PCB standoffs** for primary securing
+2. **Adhesive cable mounts** for intermediate support
+3. **Chassis-integrated routing** channels where available
+4. **Service loops** of 2-3 inches near connectors
 
-### Thermal Management
+### Maintenance Access
 
-Proper cage installation affects cooling:
-
-- **Ensure air gaps** between cages and chassis walls
-- **Align with fan placement** for optimal airflow
-- **Consider drive heat output** when planning layout
-- **Monitor drive temperatures** after installation
-
-### Vibration Control
-
-Minimize drive vibration:
-
-- **Secure all mounting screws** properly
-- **Use vibration dampers** if available
-- **Avoid over-tightening** mounting hardware
-- **Isolate high-vibration drives** when possible
+Design routing to allow:
+- **PCB removal** without cable disconnection
+- **Harness replacement** without system disassembly
+- **Visual inspection** of all connections
+- **Future expansion** capability
 
 ## Troubleshooting
 
-### Common Installation Issues
+### Common Issues
 
-| Problem | Cause | Solution |
-|---------|-------|----------|
-| **Cage won't align** | Wrong mounting position | Check bracket compatibility |
-| **Thumb screws won't thread** | Cross-threading | Back out and restart carefully |
-| **No electrical contact** | PCB misalignment | Reseat cage and check alignment |
-| **Drive won't insert** | Carrier incompatibility | Verify carrier type matches cage |
+| Symptom | Possible Cause | Solution |
+|---------|---------------|----------|
+| **No power to PCB** | Loose harness connection | Reseat both ends of harness |
+| **Intermittent power** | Damaged wire in harness | Replace harness assembly |
+| **Overheating** | Overloaded harness | Redistribute load across harnesses |
+| **Connector won't seat** | Wrong harness type | Verify harness length/type |
 
-### Electrical Issues
+### Diagnostic Steps
 
-If drives aren't detected:
+1. **Visual inspection** of all connections
+2. **Voltage testing** at PCB input connectors
+3. **Continuity check** of harness wiring
+4. **Load testing** under operational conditions
 
-1. **Check PCB connections** to powerboard
-2. **Verify SAS/SATA cables** from HBA
-3. **Test with known-good drive** in different bay
-4. **Inspect cage-to-PCB interface** for damage
+### Safety Considerations
 
-## Maintenance and Service
+!!! danger "Electrical Safety"
+    - Always power down before connecting/disconnecting harnesses
+    - Verify proper connector orientation before seating
+    - Never force connections - they should fit easily
+    - Use proper ESD protection when handling
 
-### Regular Maintenance
+## Maintenance
 
-**Monthly checks:**
-- Verify thumb screws remain tight
-- Check for signs of vibration or loosening
-- Inspect electrical connections
-- Clean dust from cage ventilation areas
+### Regular Inspection
 
-### Drive Replacement
+- **Monthly**: Visual check of connection security
+- **Quarterly**: Thermal inspection for hot spots
+- **Annually**: Connector cleaning and reseating
+- **As needed**: Harness replacement if damaged
 
-For hot-swap systems:
-1. **Power down drive** via software if required
-2. **Remove drive carrier** by releasing lever/button
-3. **Install new drive** in carrier
-4. **Insert into cage** until fully seated
-5. **Verify detection** by system
+### Replacement Procedures
 
-### Cage Removal
-
-To remove cages for maintenance:
-
-1. **Power down system** completely
-2. **Remove all drives** from cage
-3. **Disconnect any manual connections** (rare)
-4. **Remove thumb screws** in reverse order
-5. **Slide cage out** carefully
-
-## Upgrade Considerations
-
-### Adding More Cages
-
-When expanding storage:
-
-- **Verify PCB capacity** for additional drives
-- **Check power budget** for new drives
-- **Plan cable routing** for new connections
-- **Consider cooling requirements** for added heat
-
-### Changing Cage Types
-
-To switch between cage formats:
-
-1. **Remove existing cages** and drives
-2. **Replace PCB backplane** if necessary
-3. **Install new cages** following standard procedure
-4. **Migrate data** from old to new drives
-5. **Update system configuration** as needed
-
-## Compatibility Matrix
-
-### Cage-to-PCB Compatibility
-
-| Cage Type | Compatible PCBs | Drive Support |
-|-----------|----------------|---------------|
-| **12-bay 2.5"** | 12-SSD backplane | 12 x 2.5" drives |
-| **4-bay 3.5"** | 4-HDD backplane | 4 x 3.5" drives |
-| **Mixed 4-bay** | Mixed backplane | 2 x 2.5" + 2 x 3.5" |
-
-### Drive Format Support
-
-Each cage type supports specific drive formats:
-
-- **2.5" cages**: SATA/SAS SSDs, 2.5" HDDs
-- **3.5" cages**: SATA/SAS HDDs (3.5" form factor)
-- **Mixed cages**: Both 2.5" and 3.5" formats
+1. **Document existing routing** before removal
+2. **Power down and disconnect** systems
+3. **Remove old harness** carefully
+4. **Install new harness** following same routing
+5. **Test system** before full assembly
 
 ---
 
-Next: Review the [12-SSD Backplane](../../backplanes/12-ssd-backplane/) specifications and installation details.
+Next: Learn about [Wire Routing](../wire-routing/) strategies for optimal cable management.

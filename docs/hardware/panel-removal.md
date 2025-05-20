@@ -1,149 +1,148 @@
 # Panel Removal
 
-Safe and proper panel removal is essential for accessing internal components while protecting both the chassis and yourself during maintenance.
+Safe and proper removal of chassis panels is essential for accessing internal components. The HakoCore features a slide-and-lift lid mechanism for easy maintenance access.
 
 ![Panel Removal Process](../../assets/panel-removal-steps.png)
 
 ## Overview
 
-The HakoCore chassis features a sliding lid design that provides full access to internal components. The lid removal process is designed to be simple yet secure.
+The HakoCore chassis lid is designed for quick, tool-minimal removal while maintaining structural integrity when closed. The system uses a single securing screw and a slide-rail mechanism.
 
-### Safety First
+### Design Features
 
-!!! danger "Power Safety"
-    **Always disconnect power** completely before removing any panels:
-    
-    - Turn off and unplug the power supply
-    - Press the power button to discharge capacitors
-    - Wait at least 30 seconds before proceeding
-    - Verify no LEDs are illuminated
+- **Single-screw retention** for simplicity
+- **Slide-rail guides** prevent binding
+- **Lift-out design** for complete removal
+- **No special tools** required beyond basic screwdriver
 
-## Lid Removal Procedure
+## Removal Procedure
 
-### Step 1: Locate and Remove the Securing Screw
+### Step 1: Power Down System
 
-![Securing Screw Location](../../assets/lid-screw-location.png)
+!!! danger "Safety First"
+    **Always power down and disconnect** all cables before panel removal.
 
-1. **Find the screw** on the rear edge of the chassis lid
-2. **Use a Phillips head screwdriver** to remove the screw
-3. **Store the screw safely** - place it in a magnetic parts tray or small bowl
-4. **Note the screw type** - it's a standard M3 or M4 machine screw
+1. **Shut down operating system** properly
+2. **Turn off power supply** switch
+3. **Disconnect power cable** from wall outlet
+4. **Wait 30 seconds** for capacitors to discharge
 
-!!! tip "Screw Management"
-    Keep track of the securing screw! It's easy to lose and essential for proper reassembly.
+### Step 2: Remove Securing Screw
 
-### Step 2: Slide the Lid Backward
+![Lid Screw Location](../../assets/lid-screw-location.png)
 
-![Lid Sliding Motion](../../assets/lid-slide-backward.png)
+1. **Locate the lid screw** on the rear edge of the chassis
+2. **Use Phillips head screwdriver** to remove screw
+3. **Turn counterclockwise** until screw is completely out
+4. **Store screw safely** for reassembly
 
-1. **Grasp the lid firmly** with both hands
-2. **Slide backward** approximately 1 inch (25mm)
-3. **Feel for the release** - the lid should move freely once unlatched
-4. **Stop when resistance is felt** - don't force the sliding motion
+!!! tip "Screw Storage"
+    Use a magnetic parts tray or tape the screw to the screwdriver to prevent loss.
 
-### Step 3: Lift and Remove
+### Step 3: Slide the Lid Backward
 
-![Lid Lifting Process](../../assets/lid-lift-remove.png)
+![Lid Sliding Motion](../../assets/lid-slide-motion.png)
 
-1. **Lift the rear edge** of the lid first
-2. **Continue lifting** in an arc motion
-3. **Clear the front lip** of the chassis
-4. **Set the lid aside** in a safe location
+1. **Place hands on rear corners** of the lid
+2. **Push lid backward** approximately 1 inch (25mm)
+3. **Feel for the release point** where lid can lift
+4. **Ensure smooth sliding** - do not force
 
-## Safety Considerations
+### Step 4: Lift and Remove
 
-### Handling Precautions
+![Lid Lifting Process](../../assets/lid-lift-process.png)
 
-- **Support the lid weight** - it's heavier than it appears
-- **Watch for cables** that might be connected to the lid
-- **Mind your fingers** - avoid pinch points during sliding
-- **Clear your workspace** - ensure adequate space for lid placement
-
-### Cable Management
-
-!!! warning "Cable Awareness"
-    Some configurations may have cables connected to the lid for:
-    
-    - Status LED indicators
-    - Fan power connections
-    - Temperature sensors
-    
-    **Disconnect these cables before full lid removal**.
+1. **Lift rear edge first** to disengage front clips
+2. **Continue lifting evenly** across the width
+3. **Pull lid straight up** once clear of chassis
+4. **Set aside in safe location** away from work area
 
 ## Reassembly Process
 
-### Reversing the Steps
+### Lid Installation
 
-1. **Position the lid** over the chassis, front edge first
-2. **Lower carefully** ensuring proper alignment
-3. **Slide forward** until the lid seats completely
-4. **Replace and tighten** the securing screw
+1. **Align lid with chassis** ensuring proper orientation
+2. **Lower lid onto chassis** with rear edge slightly elevated
+3. **Slide lid forward** until it contacts front stops
+4. **Press down gently** to ensure full seating
+5. **Reinstall securing screw** and tighten snugly
 
-### Verification Checklist
+### Verification Steps
 
-- ✅ Lid sits flush with chassis body
-- ✅ No gaps around the perimeter
-- ✅ Securing screw is tight but not over-torqued
-- ✅ All cables are reconnected (if applicable)
+- ✅ **Lid sits flush** with chassis body
+- ✅ **No gaps** around perimeter
+- ✅ **Screw tightened** to proper torque
+- ✅ **No interference** with cables or components
+
+## Safety Considerations
+
+### Personal Safety
+
+- **Clear workspace** of obstructions
+- **Stable chassis position** on firm surface  
+- **Adequate lighting** for visibility
+- **Support lid weight** properly (approximately 3-4 lbs)
+
+### Component Protection
+
+!!! warning "Cable Awareness"
+    Check that no cables will be pinched or stressed during lid removal or installation.
+
+- **Inspect cable routing** before panel movement
+- **Ensure sufficient slack** in all connections
+- **Avoid contact** with exposed PCBs or connectors
+- **Handle lid carefully** to prevent dropping
 
 ## Troubleshooting
 
 ### Common Issues
 
-| Problem | Cause | Solution |
-|---------|-------|----------|
-| **Lid won't slide** | Screw not fully removed | Double-check screw removal |
-| **Binding during slide** | Internal obstruction | Check for cable interference |
-| **Lid doesn't sit flush** | Misalignment | Lift and reposition properly |
-| **Can't find screw** | Lost during removal | Check magnetic parts tray |
+| Problem | Possible Cause | Solution |
+|---------|---------------|-----------|
+| **Lid won't slide** | Misalignment or debris | Check rails for obstruction |
+| **Binding during removal** | Forced movement | Reset and try gentle pressure |
+| **Gaps after installation** | Improper seating | Remove and reinstall carefully |
+| **Screw won't tighten** | Cross-threading | Back out and restart threading |
 
-### Alignment Issues
+### Maintenance Tips
 
-If the lid doesn't align properly:
+- **Monthly**: Check screw tightness
+- **Quarterly**: Clean slide rails of dust/debris
+- **Annually**: Inspect lid alignment and hardware
+- **As needed**: Apply light lubricant to slide mechanism
 
-1. **Check for obstructions** inside the chassis
-2. **Verify slide rails** are clean and undamaged
-3. **Inspect lid edges** for bent or damaged areas
-4. **Ensure front lip** engages properly with chassis
+## Tool Requirements
 
-## Maintenance Tips
+### Basic Tools
+- **Phillips head screwdriver** (magnetic tip recommended)
+- **Clean cloth** for handling
+- **Good lighting source**
 
-### Regular Care
+### Optional Tools
+- **Magnetic parts tray** for screw storage
+- **Anti-static wrist strap** if handling components
+- **Flashlight** for inspection
 
-- **Monthly inspection** of lid alignment
-- **Clean slide rails** quarterly with dry cloth
-- **Check securing screw** for proper torque
-- **Lubricate if necessary** with light machine oil
+## Best Practices
 
-### Long-term Storage
+### During Removal
+1. **Work deliberately** - no rushing
+2. **Support lid weight** throughout process
+3. **Keep track** of removed hardware
+4. **Document** cable positions if needed
 
-If storing the chassis with lid removed:
+### During Service
+1. **Place lid** in secure location
+2. **Cover open chassis** if work will take time
+3. **Avoid placing objects** on top of open system
+4. **Take photos** of complex connections before disconnecting
 
-- **Protect internal components** from dust
-- **Store lid vertically** or flat (not on edge)
-- **Keep securing screw with lid** to prevent loss
-- **Cover open chassis** with clean cloth
-
-## Alternative Access Methods
-
-### Front Panel Access
-
-For quick access without full lid removal:
-
-- **Magnetic front panel** can be removed easily
-- **Provides access** to front fans and some cages
-- **No tools required** for removal
-- **Ideal for drive installation/removal**
-
-### Partial Lid Opening
-
-For some maintenance tasks:
-
-- **Remove securing screw only**
-- **Slide lid back partially**
-- **Lift rear edge slightly** for cable access
-- **Maintain some weather protection**
+### During Reinstallation
+1. **Inspect all connections** before closing
+2. **Ensure proper cable routing** 
+3. **Test lid movement** before final screw installation
+4. **Verify system function** after reassembly
 
 ---
 
-Next: Understanding the [Powerboard](../powerboard/) system for power distribution throughout the chassis.
+Next: Learn about the [Powerboard](../powerboard/) that manages power distribution in the chassis.
