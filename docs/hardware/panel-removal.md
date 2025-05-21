@@ -1,8 +1,8 @@
 # Lid Installation & Removal
 
-Safe and proper removal of chassis lid is essential for accessing internal components.
 
 ## Overview
+Safe and proper removal of chassis lid is essential for accessing internal components. <br />
 
 The HakoCore chassis lid is designed for quick, tool-minimal removal while maintaining structural integrity when closed. The HakoCore features a slide-and-lift lid mechanism for easy maintenance access.
 
