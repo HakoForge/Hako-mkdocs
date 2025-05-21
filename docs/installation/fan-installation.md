@@ -155,7 +155,3 @@ To maximize cooling efficiency:
 2. **Monitor temperatures** under various loads
 3. **Adjust intake/exhaust balance** for best results
 4. **Consider dust filters** for long-term performance
-
----
-
-Next: Learn about [PCB Installation](../pcb-installation/) to complete your system assembly.

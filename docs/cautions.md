@@ -72,7 +72,3 @@ If you encounter any issues during installation:
 2. **Stop work** if you're unsure about any connection
 3. **Contact support** at [help@hakoforge.com](mailto:help@hakoforge.com)
 4. **Document the issue** with photos if safe to do so
-
----
-
-Once you've reviewed these safety guidelines, proceed to the [Specifications](../specifications/) section to verify compatibility with your system.

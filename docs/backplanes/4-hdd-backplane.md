@@ -240,7 +240,3 @@ Tested and confirmed compatible:
 - **SSD replacement**: Consider 3.5" SATA SSDs for performance
 - **SAS drives**: Upgrade to SAS for better performance/reliability
 - **HBA upgrades**: Consider newer controllers for additional features
-
----
-
-Next: Learn about the [Mixed 4-Bay Backplane](../mixed-4-bay-backplane/) for hybrid storage configurations.

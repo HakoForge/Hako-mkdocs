@@ -136,7 +136,3 @@ Design your cable routing with future maintenance in mind:
 - **Flush cutters**: For trimming zip tie tails
 - **Cable pulling system**: For difficult routing paths
 - **Inspection mirror**: For verifying hidden connections
-
----
-
-Next: Proceed to [Fan Installation](../../installation/fan-installation/) to learn about cooling system setup.

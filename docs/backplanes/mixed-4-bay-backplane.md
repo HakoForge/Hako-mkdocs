@@ -280,7 +280,3 @@ The mixed backplane works optimally with:
 - **Bay 0**: OS SSD for system stability
 - **Bay 1**: Buffer SSD for recording overflow
 - **Bays 2+3**: Large HDDs for video archives
-
----
-
-This completes the backplane documentation series. Each backplane type offers unique advantages for different storage scenarios in the HakoCore chassis.

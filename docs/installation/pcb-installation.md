@@ -181,7 +181,3 @@ Design your installation for easy maintenance:
 - **Quarterly**: Check connection tightness
 - **Annually**: Clean dust from PCB surfaces
 - **As needed**: Reseat connections if issues arise
-
----
-
-Next: Learn about [Cage Installation](../cage-installation/) to complete your drive bay setup.

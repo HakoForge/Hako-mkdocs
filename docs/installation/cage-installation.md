@@ -214,7 +214,3 @@ Design cage layout for:
 - **Visual status monitoring** of all drives
 - **Cable management** accessibility
 - **Future expansion** capability
-
----
-
-Next: Review the [Warranty](../../warranty/) information for support and coverage details.

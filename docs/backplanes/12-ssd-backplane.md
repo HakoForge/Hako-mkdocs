@@ -176,7 +176,3 @@ The 12-SSD backplane has been verified with:
 - **Backplane firmware**: Updates available via HakoForge
 - **Drive firmware**: Update per manufacturer recommendations
 - **HBA firmware**: Keep current for best compatibility
-
----
-
-Next: Learn about the [4-HDD Backplane](../4-hdd-backplane/) for 3.5" drive configurations.

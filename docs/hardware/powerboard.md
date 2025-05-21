@@ -73,8 +73,3 @@ Each 8-pin PCIe input corresponds to specific outputs on the 24-pin connector:
 - **4-Pin Fan OUT**: Direct fan power connections
 - **Powered by**: 8-Pin PCIe IN 1
 - **Control**: PWM speed control supported
-
-
----
-
-Next: Learn about the [Power Harness](../power-harness/) system that distributes power to individual PCBs.

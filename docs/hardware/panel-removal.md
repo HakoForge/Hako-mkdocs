@@ -85,7 +85,3 @@ The HakoCore chassis lid is designed for quick, tool-minimal removal while maint
 1. Lower lid onto chassis.
 3. Slide lid toward the front of the chasis.
 5. Reinstall the securing screw and tighten snugly.
-
----
-
-Next: Learn about the [Powerboard](../powerboard/) that manages power distribution in the chassis.

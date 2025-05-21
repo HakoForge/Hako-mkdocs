@@ -203,7 +203,3 @@ Design routing to allow:
 3. **Remove old harness** carefully
 4. **Install new harness** following same routing
 5. **Test system** before full assembly
-
----
-
-Next: Learn about [Wire Routing](../wire-routing/) strategies for optimal cable management.

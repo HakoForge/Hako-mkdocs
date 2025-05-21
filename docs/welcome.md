@@ -39,7 +39,3 @@ For any questions, technical support, or warranty issues:
 ### Community
 - 💬 **Discussions**: Share experiences with other HakoCore users
 - 🔧 **Modifications**: Community-driven enhancements and customizations
-
----
-
-Ready to get started? Head to the [Safety & Cautions](../cautions/) section to ensure a safe installation process.

@@ -98,7 +98,3 @@ The HakoCore can accommodate various storage configurations depending on install
 | **Storage Temperature** | -20°C to 60°C (-4°F to 140°F) |
 | **Humidity** | 20% to 80% non-condensing |
 | **Altitude** | Up to 3,000m (10,000 ft) |
-
----
-
-Next: Review the [Exploded View](../hardware/exploded-view/) to understand the chassis components.

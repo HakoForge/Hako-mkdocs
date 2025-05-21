@@ -114,7 +114,3 @@ Each component is designed for:
 - **Clear access** to connections and mounting points
 - **Safe handling** with appropriate grip surfaces
 - **Component protection** during service
-
----
-
-Next: Learn about [Panel Removal](../panel-removal/) procedures for accessing internal components.
