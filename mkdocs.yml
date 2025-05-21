@@ -18,7 +18,7 @@ nav:
     - Specifications: specifications.md
   - Hardware Guide:
     - Exploded View: hardware/exploded-view.md
-    - Lid: hardware/panel-removal.md
+    - Lid Installation: hardware/panel-removal.md
     - Powerboard: hardware/powerboard.md
     - Power Harness: hardware/power-harness.md
     - Wire Routing: hardware/wire-routing.md
