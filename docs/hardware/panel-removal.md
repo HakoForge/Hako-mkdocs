@@ -8,7 +8,7 @@ The HakoCore chassis lid is designed for quick, tool-minimal removal while maint
 
 ### Key Features
 
-- slide-and-lift design for easy removal.
+- Slide-and-lift design for easy removal.
 - No special tools required beyond phillips head screwdriver.
 
 ## Tool Requirements

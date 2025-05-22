@@ -17,15 +17,14 @@ nav:
     - Safety & Cautions: cautions.md
     - Specifications: specifications.md
   - Hardware Guide:
+    - Cage Installation: installation/cage-installation.md
     - Exploded View: hardware/exploded-view.md
+    - Fan Installation: installation/fan-installation.md
     - Lid Installation: hardware/panel-removal.md
+    - PCB Installation: installation/pcb-installation.md
     - Powerboard: hardware/powerboard.md
     - Power Harness: hardware/power-harness.md
     - Wire Routing: hardware/wire-routing.md
-  - Installation:
-    - Fan Installation: installation/fan-installation.md
-    - PCB Installation: installation/pcb-installation.md
-    - Cage Installation: installation/cage-installation.md
   - Backplanes:
     - 12-SSD Backplane: backplanes/12-ssd-backplane.md
     - 4-HDD Backplane: backplanes/4-hdd-backplane.md
