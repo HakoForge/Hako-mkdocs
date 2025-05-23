@@ -5,8 +5,8 @@ site_author: HakoForge
 site_url: https://docs.hakoforge.com
 
 # Repository information
-repo_name: hakoforge/hakocore-docs
-repo_url: https://github.com/hakoforge/hakocore-docs
+repo_name: /HakoForge/HakoCore
+repo_url: https://github.com/HakoForge/HakoCore
 edit_uri: edit/main/docs/
 
 # Navigation structure
@@ -63,7 +63,7 @@ theme:
     - search.share
     - content.code.copy
     - content.code.annotate
-  logo: assets/hakoforge-logo.png
+  logo: Logo.png
   favicon: assets/favicon.ico
 
 # Extensions

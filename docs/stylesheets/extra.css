@@ -30,6 +30,26 @@
     color: var(--hf-yellow);
   }
   
+  /* Search bar styling */
+  .md-search__input {
+    background-color: white;
+    color: var(--hf-dark);
+    border-radius: 4px;
+  }
+  
+  .md-search__input::placeholder {
+    color: var(--hf-gray);
+  }
+  
+  /* Repository link styling */
+  .md-source {
+    color: var(--hf-yellow);
+  }
+  
+  .md-source:hover {
+    color: var(--hf-yellow-dark);
+  }
+  
   /* ===== NAVIGATION ===== */
   .md-nav__title {
     color: var(--hf-orange);
