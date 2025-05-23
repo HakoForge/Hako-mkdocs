@@ -15,10 +15,10 @@ The HakoCore supports multiple cage types to accommodate different storage confi
 
 ### Key Features
 
-- **Tool-free installation** using thumb screws
-- **Keyed alignment** prevents incorrect mounting
-- **Hot-swap carriers** for individual drive access
-- **Airflow channels** for optimal cooling
+- Tool-free installation using thumb screws
+- Keyed alignment prevents incorrect mounting
+- Hot-swap carriers for individual drive access
+- Airflow channels for optimal cooling
 
 ## Installation Procedure
 

@@ -4,15 +4,15 @@
 
 ## Overview
 
-The HakoCore power harness system distributes clean, regulated power from the central powerboard to individual PCBs throughout the chassis. This modular approach ensures efficient power delivery and simplified cable management.
+The Hako-Core power harness system distributes clean, regulated power from the central powerboard to individual PCBs throughout the chassis. This modular approach ensures efficient power delivery and simplified cable management.
 
 The power harness acts as the distribution network between the central powerboard and the individual backplanes.
 
 ### Key Features
 
-- **Modular design** with two harness lengths
-- **16-pin to 4-pin distribution** architecture  
-- **Overcurrent protection** at the powerboard level
+- Modular design with two harness lengths
+- 16-pin to 4-pin distribution architecture  
+- Overcurrent protection at the powerboard level
 
 ## Harness Specifications
 
@@ -78,19 +78,19 @@ The power harness acts as the distribution network between the central powerboar
 
 ### Step 1: Route Harnesses
 
-1. **Plan routing path** from powerboard to each PCB
-2. **Use appropriate length** harness for each connection
-3. **Route along chassis edges** for longer runs (See Diagram Above)
+1. Plan routing path from powerboard to each PCB
+2. Use appropriate length harness for each connection
+3. Route along chassis edges for longer runs (See Diagram Above)
 
 ### Step 2: Connect to Powerboard
 
-2. **Align 16-pin connector** with powerboard output
-3. **Press firmly** until connector fully seats
-4. **Verify secure connection** with gentle pull test
+2. Align 16-pin connector with powerboard output
+3. Press firmly until connector fully seats
+4. Verify secure connection with gentle pull test
 
 ### Step 3: Connect to PCBs
 
-1. **Install PCBs** in their designated locations
-2. **Connect 4-pin outputs** to appropriate PCB inputs
-3. **Press firmly** until connector fully seats
-4. **Verify secure connection** with gentle pull test
+1. Install PCBs in their designated locations
+2. Connect 4-pin outputs to appropriate PCB inputs
+3. Press firmly until connector fully seats
+4. Verify secure connection with gentle pull test

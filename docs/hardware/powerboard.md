@@ -5,8 +5,6 @@ The powerboard is the central power distribution hub for the HakoCore chassis. I
 
 The powerboard provides clean, regulated power distribution for all storage devices and cooling systems in the HakoCore chassis.
 
-![Powerboard Diagram](../../assets/powerboard-diagram.png)
-
 ### Key Features
 
 - **Input**: Multiple 8-pin PCIe power connectors from PSU
