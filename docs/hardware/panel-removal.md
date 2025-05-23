@@ -4,7 +4,7 @@
 ## Overview
 Safe and proper removal of chassis lid is essential for accessing internal components. <br />
 
-The HakoCore chassis lid is designed for quick, tool-minimal removal while maintaining structural integrity when closed. The HakoCore features a slide-and-lift lid mechanism for easy maintenance access.
+The Hako-Core chassis lid is designed for quick, tool-minimal removal while maintaining structural integrity when closed. The Hako-Core features a slide-and-lift lid mechanism for easy maintenance access.
 
 ### Key Features
 

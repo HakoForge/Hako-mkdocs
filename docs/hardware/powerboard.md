@@ -1,14 +1,14 @@
 # Powerboard
 
 ## Overview
-The powerboard is the central power distribution hub for the HakoCore chassis. It takes 8-pin PCIe power inputs from your ATX power supply and distributes power throughout the HakoCore power harnesses to individual PCBs. <br />
+The powerboard is the central power distribution hub for the Hako-Core chassis. It takes 8-pin PCIe power inputs from your ATX power supply and distributes power throughout the Hako-Core power harnesses to individual PCBs. <br />
 
-The powerboard provides clean, regulated power distribution for all storage devices and cooling systems in the HakoCore chassis.
+The powerboard provides clean, regulated power distribution for all storage devices and cooling systems in the Hako-Core chassis.
 
 ### Key Features
 
 - **Input**: Multiple 8-pin PCIe power connectors from PSU
-- **Output**: 24-pin connector to HakoCore power harnesses
+- **Output**: 24-pin connector to Hako-Core power harnesses
 - **Fan Power**: Direct 4-pin fan power outputs
 - **Modular Design**: Support for single or dual powerboard configuration
 
@@ -55,7 +55,7 @@ The powerboard accepts up to 4 x 8-pin PCIe power connectors:
 
 ### Output Connections
 
-#### HakoCore Power Harness
+#### Hako-Core Power Harness
 
 Each 8-pin PCIe input corresponds to specific outputs on the 24-pin connector:
 

@@ -1,13 +1,13 @@
 # Safety & Cautions
 
 !!! danger "Important Safety Information"
-    The HakoCore includes a powerboard that will be connected to an ATX power supply. Please read all safety information carefully before proceeding.
+    The Hako-Core includes a powerboard that will be connected to an ATX power supply. Please read all safety information carefully before proceeding.
 
 ## ⚡ Electrical Safety
 
 ### Power Supply Considerations
 
-The HakoCore powerboard connects directly to your ATX power supply. **Always follow proper electrical safety procedures:**
+The Hako-Core powerboard connects directly to your ATX power supply. **Always follow proper electrical safety procedures:**
 
 - Ensure your power supply is **completely disconnected** before making any connections
 - Verify all connections are secure before powering on
@@ -18,25 +18,25 @@ The HakoCore powerboard connects directly to your ATX power supply. **Always fol
 To protect yourself and electronic components:
 
 !!! warning "Connector Safety"
-    - **Keep unused connectors clear** from contacting other surfaces
-    - **Ensure proper PSU connectors are used** (refer to the quick start guide)
-    - **Never force connections** - they should fit easily when properly aligned
+    - Keep unused connectors clear from contacting other surfaces
+    - Ensure proper PSU connectors are used (refer to the quick start guide)
+    - Never force connections - they should fit easily when properly aligned
 
 ## 🔧 Installation Safety
 
 ### Before You Begin
 
-1. **Power down and disconnect** all equipment
-2. **Ground yourself** to prevent static discharge
-3. **Prepare your workspace** with adequate lighting and ventilation
-4. **Have proper tools ready** (screwdrivers, cable ties, etc.)
+1. Power down and disconnect all equipment
+2. Ground yourself to prevent static discharge
+3. Prepare your workspace with adequate lighting
+4. Have proper tools ready (screwdrivers, cable ties, etc.)
 
 ### During Installation
 
-- **Handle components carefully** - avoid dropping or striking parts
-- **Support heavy components** when installing drives or PCBs
-- **Route cables properly** to avoid pinching or interference
-- **Check for interference** before closing panels
+- Handle components carefully - avoid dropping or striking parts
+- Support heavy components when installing drives or PCBs or GPUs
+- Route cables properly to avoid pinching or interference
+- Check for interference before closing panels
 
 ## 📋 General Safety Guidelines
 
@@ -47,13 +47,6 @@ To protect yourself and electronic components:
     - Avoid touching connectors with your fingers
     - Store removed components in anti-static bags when possible
     - Keep your workspace clean and organized
-
-### Environmental Considerations
-
-- **Operating temperature**: Keep within manufacturer specifications
-- **Humidity**: Avoid condensation during installation
-- **Ventilation**: Ensure adequate airflow for components
-- **Clean environment**: Minimize dust and debris during assembly
 
 ## 🚫 What NOT to Do
 
@@ -68,7 +61,6 @@ To protect yourself and electronic components:
 
 If you encounter any issues during installation:
 
-1. **Immediately disconnect power** if you smell burning or see sparks
-2. **Stop work** if you're unsure about any connection
-3. **Contact support** at [help@hakoforge.com](mailto:help@hakoforge.com)
-4. **Document the issue** with photos if safe to do so
+1. Immediately disconnect power if you smell burning or see sparks
+2. Stop work if you're unsure about any connection
+3. Contact support at [help@hakoforge.com](mailto:help@hakoforge.com)

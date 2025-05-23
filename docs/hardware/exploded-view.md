@@ -1,12 +1,12 @@
 # Exploded View
 
-Understanding the HakoCore chassis components and their assembly relationships is crucial for proper installation and maintenance.
+Understanding the Hako-Core chassis components and their assembly relationships is crucial for proper installation and maintenance.
 
-![HakoCore Exploded View](../imgs/ExplodedView.png)
+![Hako-Core Exploded View](../imgs/ExplodedView.png)
 
 ## Component Identification
 
-The HakoCore Server Chassis consists of 9 main components that assemble together to form the complete chassis system.
+The Hako-Core Server Chassis consists of 9 main components that assemble together to form the complete chassis system.
 
 ### Primary Components
 

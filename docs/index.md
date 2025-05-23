@@ -1,22 +1,20 @@
-# HakoCore 4U Server Chassis
+# Hako-Core 4U Server Chassis
 
-![HakoCore Chassis](assets/hakocore-chassis.png)
-
-Welcome to the official documentation for the HakoCore 4U Server Chassis. This comprehensive guide will help you understand, install, and maintain your HakoCore system.
+Welcome to the official documentation for the Hako-Core Server Chassis. This comprehensive guide will help you understand, install, and maintain your Hako-Core system.
 
 ## Quick Start
 
 1. [Read the safety cautions](cautions.md) before beginning
 2. Review the [specifications](specifications.md) to ensure compatibility
-3. Follow the [installation guides](installation/fan-installation.md) for setup
-4. Configure your [backplanes](backplanes/12-ssd-backplane.md) as needed
+3. Check the [Hardware Guides](/hardware/exploded-view) for installation and specifications.
+4. Check [backplanes](backplanes/12-ssd-backplane.md) for information on backplanes.
 
 ## What's Included
 
 !!! info "Version Information"
-    This documentation is for HakoCore 4U Server Chassis **Version 1.0** (December 2024)
+    This documentation is for Hako-Core 4U Server Chassis **Version 1.0** (December 2024)
 
-The HakoCore 4U Server Chassis is designed for high-density storage applications with support for:
+The Hako-Core 4U Server Chassis is designed for high-density storage applications with support for:
 
 - **Multiple motherboard formats**: Mini-ITX, Micro ATX, ATX, EATX
 - **Flexible storage options**: SSDs, HDDs, and mixed configurations
@@ -33,4 +31,4 @@ For questions, support, or warranty issues:
 
 ---
 
-*The HakoCore will be an ongoing project. As new cages or PCBs are made, this manual may be updated or changed.*
+*The Hako-Core will be an ongoing project. As new cages or PCBs are made, this manual may be updated or changed.*

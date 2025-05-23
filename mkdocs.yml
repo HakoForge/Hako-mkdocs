@@ -1,6 +1,6 @@
-# MkDocs configuration for HakoCore 4U Server Chassis documentation
-site_name: HakoCore 4U Server Chassis User Manual
-site_description: Complete user manual for the HakoCore 4U Server Chassis
+# MkDocs configuration for Hako-Core 4U Server Chassis documentation
+site_name: Hako-Core 4U Server Chassis User Manual
+site_description: Complete user manual for the Hako-Core 4U Server Chassis
 site_author: HakoForge
 site_url: https://docs.hakoforge.com
 
@@ -17,11 +17,11 @@ nav:
     - Safety & Cautions: cautions.md
     - Specifications: specifications.md
   - Hardware Guide:
-    - Cage Installation: installation/cage-installation.md
+    - Cage Installation: hardware/cage-installation.md
     - Exploded View: hardware/exploded-view.md
-    - Fan Installation: installation/fan-installation.md
+    - Fan Installation: hardware/fan-installation.md
     - Lid Installation: hardware/panel-removal.md
-    - PCB Installation: installation/pcb-installation.md
+    - PCB Installation: hardware/pcb-installation.md
     - Powerboard: hardware/powerboard.md
     - Power Harness: hardware/power-harness.md
     - SAS Routing: hardware/wire-routing.md

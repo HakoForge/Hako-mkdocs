@@ -73,8 +73,8 @@ The power harness acts as the distribution network between the central powerboar
     - Group harnesses by destination area
     - Use color coding for easy identification
 
-![Cable Routing HakoCore](../imgs/cableRouting.png)
-![Cable Routing HakoCore](../imgs/cableRouting.png)
+![Cable Routing Hako-Core](../imgs/cableRouting.png)
+![Cable Routing Hako-Core Mini](../imgs/cableRouting.png)
 
 ### Step 1: Route Harnesses
 
