@@ -66,7 +66,7 @@ The Hako-Core chassis lid is designed for quick, tool-minimal removal while main
 
 ## Hako-Core Mini Case
 
-![Panel Removal Process](../../assets/panel-removal-steps.png)
+![Panel Removal Process](../imgs/PanelRemoval.png)
 
 ### Removal Procedure
 

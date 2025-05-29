@@ -8,11 +8,15 @@ The power harness acts as the distribution network between the central powerboar
 
 ## SAS Cable Variants
 
-### Short Harness (18" / 457mm)
+### Short Harness (18" / .4cm)
 - **Use case**: PCBs in first two rows from the front of the chasis
 - **Quantity needed**: 1-8 per system
 
-### Long Harness (36" / 914mm)  
+#### Medium Harness (18" / .6cm)
+- **Use case**: PCBs in first two rows from the front of the chasis
+- **Quantity needed**: 1-8 per system
+
+### Long Harness (36" / .8cm)  
 - **Use case**: PCBs in the 3rd and 4th rows from the front of the chasis
 - **Quantity needed**: 1-8 per system
 

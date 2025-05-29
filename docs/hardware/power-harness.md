@@ -22,13 +22,13 @@ The power harness acts as the distribution network between the central powerboar
 |-----------|---------------|
 | **Input Connector** | 16-pin keyed connector |
 | **Output Connectors** | 4 x 4-pin power connectors |
-| **Current Rating** | 150 watts per 4-pin output |
+| **Current Rating** | 150 watts per 8-pin PCIe |
 | **Voltage** | 12V DC distribution |
 | **Length Options** | Short (18") and Long (36") variants |
 
 ### Harness Variants
 
-#### Short Harness (18" / 457mm)
+#### Short Harness (18" / .4cm)
 - **Use case**: PCBs in first two rows from the front of the chasis
 - **Quantity needed**: 1-8 per system
 

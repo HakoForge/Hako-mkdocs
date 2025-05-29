@@ -18,7 +18,7 @@ The Hako-Core 4U Server Chassis is designed for high-density storage application
 
 - **Multiple motherboard formats**: Mini-ITX, Micro ATX, ATX, EATX
 - **Flexible storage options**: SSDs, HDDs, and mixed configurations
-- **Advanced cooling**: Support for up to 9 fans total
+- **Cooling**: Support for up to 9 fans total
 - **Modular design**: Expandable with additional cages and PCBs
 
 ## Getting Help

@@ -5,7 +5,7 @@
 
 ### Physical Dimensions
 
-![Hako-Core Dimensions](../assets/hakocore-dimensions.png)
+![Hako-Core Dimensions](imgs/CoreDimensions.png)
 
 | Dimension | Measurement |
 |-----------|-------------|
@@ -107,16 +107,15 @@ The Hako-Core supports a wide range of motherboard form factors:
 | **Minimal Setup** | 20 lbs |
 | *3 fans, 3 cages & PCBs, no drives* | |
 | **Standard Setup** | 25 lbs |
-| *3 fans, 9 cages & PCBs, no drives* | |
+| *3 fans, 6 standard cages + 2 mini cages & PCBs, no drives* | |
 | **Fully Loaded** | ~35 to ~90 lbs |
-| *3 fans, 9 cages & PCBs, 42 HDD, 6 SSD* | *(depending on drives used)* |
+| *3 fans, 6 standard cages + 2 mini cages & PCBs, 42 HDD, 6 SSD* | *(depending on drives used)* |
 
-### Drive Power Capability
+### Power Capability
 
 | Configuration | Power Output |
 |---------------|--------------|
 | **Single Powerboard** | 600 Watts |
-| **Dual Powerboards** | 1,200 Watts |
 
 ### Motherboard Support
 
