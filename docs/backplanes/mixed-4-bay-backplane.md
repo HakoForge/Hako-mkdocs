@@ -15,6 +15,8 @@ This backplane combines the best of both storage worlds, allowing users to optim
 
 ## Technical Specifications
 
+<div class="table-center" markdown="1">
+
 | Parameter | Specification |
 |-----------|---------------|
 | **2.5" Connectors** | 2 x SATA/SAS 2.5" |
@@ -25,6 +27,8 @@ This backplane combines the best of both storage worlds, allowing users to optim
 | **Max Power Consumption** | 40 Watts |
 | **Hot-Swap** | Yes |
 
+</div>
+
 ## Backplane Diagram
 
 ![Mixed 4-Bay Backplane Diagram](../imgs/mixedBackplaneDiagram.png)
@@ -34,12 +38,14 @@ This backplane combines the best of both storage worlds, allowing users to optim
 Each drive bay includes:<br/>
 - Power LED Green when drive is powered<br/>
 - Activity LED Flashing during I/O operations<br/>
-- Fault LED Red when drive error detected<br/>
+
+!!! info "Power LED Compatibility"
+    Some drives do not trigger the LEDs but are functioning correctly.
 
 ## Installation Guide
 
-For PCB and Backplane Installation see [PCB Installation](../installation/pcb-installation.md)<br/>
-For Drive Cage Installation see [Cage Installation](../installation/cage-installation.md)
+For PCB and Backplane Installation see [PCB Installation](../hardware/pcb-installation.md)<br/>
+For Drive Cage Installation see [Cage Installation](../hardware/cage-installation.md)
 
 ## Drive Installation
 

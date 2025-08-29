@@ -7,10 +7,11 @@ Contact us at help@hakoforge.com for warranty support.<br/>
 This warranty is limited to the original purchaser and warrants that the product is free from manufacturing defects for the specified time period.
 
 This warranty does not cover damage or problems caused by, but not limited to:<br/>
-- Wear and tear from normal use<br/>
-- Any improper use that does not follow procedures described in the manual<br/>
-- Any accidents or modifications<br/>
-- Incorrect use with a power supply<br/>
+
+- Wear and tear from normal use
+- Any improper use that does not follow procedures described in the manual
+- Any accidents or modifications
+- Incorrect use with a power supply
 
 HakoForge recommends regular backups and proper data storage practices.<br/>
 HakoForge is not responsible for any data loss that may occur.
@@ -19,9 +20,9 @@ HakoForge is not responsible for any data loss that may occur.
 
 ### Contact Information
 
-📧 **Warranty Claims**: [help@hakoforge.com](mailto:help@hakoforge.com)  
-🕒 **Response Time**: 24-48 hours typical  
-📋 **Business Hours**: Monday-Friday, 9 AM - 5 PM PST  
+**Warranty Claims**: [help@hakoforge.com](mailto:help@hakoforge.com)  
+**Response Time**: 24-48 hours typical  
+**Business Hours**: Monday-Friday, 9 AM - 5 PM PST  
 
 ### Required Information
 

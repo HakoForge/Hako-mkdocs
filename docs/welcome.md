@@ -13,8 +13,9 @@ Please read this user manual carefully before use. It covers:
 
 ## Pre-assembled vs Kit Options
 
-!!! note "Kit Configuration"
-    If the Hako-Core was purchased as a kit, it will come pre-assembled and ready for use.
+
+- If the Hako-Core was configured at purchase, it will come pre-assembled and ready for use.
+- If backplane kits are bought to be placed in an existing Hako-Core, refer to the Backplane installation page.
 
 ## Living Documentation
 
@@ -24,14 +25,7 @@ The Hako-Core is an ongoing project with continuous improvements. As new cages o
 - All versions and documentation are available on our [GitHub repository](https://github.com/hakoforge).
 - You'll be notified of significant updates via our email subscriber list or our discord.
 
-## Support Channels
 
-For any questions, technical support, or warranty issues:
-
-### Primary Support
-- 📧 **Email**: [help@hakoforge.com](mailto:help@hakoforge.com)
-- 🕒 **Response Time**: Typically within 24-48 hours
-
-### Documentation
-- 📚 **GitHub**: Complete documentation history and updates
-- 📖 **This Site**: Always up-to-date installation guides and specifications
+## Support
+For any questions, technical support, or warranty issues: <br>
+**Email**: [help@hakoforge.com](mailto:help@hakoforge.com)

@@ -18,6 +18,8 @@ This backplane is optimized for traditional 3.5" hard disk drives, providing the
 
 ## Technical Specifications
 
+<div class="table-center" markdown="1">
+
 | Parameter | Specification |
 |-----------|---------------|
 | **Drive Connectors** | 4 x SATA/SAS 3.5" |
@@ -26,6 +28,8 @@ This backplane is optimized for traditional 3.5" hard disk drives, providing the
 | **Output Voltages** | 12V pass-through, 5V regulated (5A Max) |
 | **Max Power Consumption** | 53 Watts |
 | **Hot-Swap** | Yes |
+
+</div>
 
 
 ## Backplane Diagram
@@ -37,12 +41,14 @@ This backplane is optimized for traditional 3.5" hard disk drives, providing the
 Each drive bay includes:<br/>
 - Power LED Green when drive is powered<br/>
 - Activity LED Flashing during I/O operations<br/>
-- Fault LED Red when drive error detected<br/>
+
+!!! info "Power LED Compatibility"
+    Some drives do not trigger the LEDs but are functioning correctly.
 
 ## Installation Guide
 
-For PCB and Backplane Installation see [PCB Installation](../installation/pcb-installation.md)<br/>
-For Drive Cage Installation see [Cage Installation](../installation/cage-installation.md)
+For PCB and Backplane Installation see [PCB Installation](../hardware/pcb-installation.md)<br/>
+For Drive Cage Installation see [Cage Installation](../hardware/cage-installation.md)
 
 ## Drive Installation
 

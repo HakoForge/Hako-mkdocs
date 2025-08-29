@@ -7,11 +7,15 @@ The Hako-Core supports multiple cage types to accommodate different storage conf
 
 ### Cage Types
 
+<div class="table-center" markdown="1">
+
 | Cage Type | Drive Format | Capacity | Hot-Swap |
 |-----------|--------------|----------|----------|
 | **12-SSD Cage** | 2.5" SSD | 12 drives | Yes |
 | **4-HDD Cage** | 3.5" HDD | 4 drives | Yes |
 | **Mixed Cage** | 2.5" + 3.5" | 2+2 drives | Yes |
+
+</div>
 
 ### Key Features
 
@@ -29,7 +33,7 @@ The Hako-Core supports multiple cage types to accommodate different storage conf
 !!! danger "Safety First"
     It is always recommended to power down the system when working inside the case.
 
-For how to remove the lid see [Lid Removal](../hardware/panel-removal.md)
+For how to remove the lid see [Lid Removal](panel-removal.md)
 
 1. Power down the system completely
 2. Remove chassis lid following panel removal procedure

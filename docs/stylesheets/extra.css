@@ -186,6 +186,28 @@
   }
   
   /* ===== RESPONSIVE DESIGN ===== */
+  .video-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+  }
+  .video-center iframe {
+    max-width: 100%;
+  }
+
+  /* Center tables when wrapped in a .table-center container */
+  .table-center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .table-center .md-typeset__table {
+    display: inline-block;
+    max-width: 100%;
+  }
+
   @media screen and (max-width: 768px) {
     .md-typeset table.specs {
       font-size: 0.8rem;

@@ -10,6 +10,8 @@ The Hako-Core Server Chassis consists of 9 main components that assemble togethe
 
 ### Primary Components
 
+<div class="table-center" markdown="1">
+
 | Item | Component Name | Function | Assembly Notes |
 |------|---------------|----------|----------------|
 | **1** | PSU Bracket | Mounts ATX power supply | Rear-mounted, supports up to 210mm PSU |
@@ -21,3 +23,5 @@ The Hako-Core Server Chassis consists of 9 main components that assemble togethe
 | **7** | Top Front Fan Bracket | Upper front fan mounting | Supports 3x 120mm fans |
 | **8** | Bottom Front Fan Bracket | Lower front fan mounting | Intake configuration |
 | **9** | Front Panel | Magnetic access panel | Tool-free removal |
+
+</div>

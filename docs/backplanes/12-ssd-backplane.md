@@ -18,6 +18,8 @@ This backplane is designed for maximum 2.5" drive density while providing clean 
 
 ## Technical Specifications
 
+<div class="table-center" markdown="1">
+
 | Parameter | Specification |
 |-----------|---------------|
 | **Drive Connectors** | 12 x SATA/SAS 2.5" |
@@ -27,6 +29,8 @@ This backplane is designed for maximum 2.5" drive density while providing clean 
 | **Max Power Consumption** | 84 Watts |
 | **Hot-Swap** | Yes |
 
+</div>
+
 ## Backplane Diagram
 
 ![12-SSD Backplane](../imgs/SSDBackplaneDiagram.png)
@@ -35,13 +39,14 @@ This backplane is designed for maximum 2.5" drive density while providing clean 
 
 Each drive bay includes:<br/>
 - Power LED Green when drive is powered<br/>
-- Activity LED Flashing during I/O operations<br/>
-- Fault LED Red when drive error detected<br/>
+
+!!! info "Power LED Compatibility"
+    Some drives do not trigger the LED but are functioning correctly.
 
 ## Installation Guide
 
-For PCB and Backplane Installation see [PCB Installation](../installation/pcb-installation.md)<br/>
-For Drive Cage Installation see [Cage Installation](../installation/cage-installation.md)
+For PCB and Backplane Installation see [PCB Installation](../hardware/pcb-installation.md)<br/>
+For Drive Cage Installation see [Cage Installation](../hardware/cage-installation.md)
 
 ## Drive Installation
 

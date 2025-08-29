@@ -22,8 +22,6 @@ The powerboard provides clean, regulated power distribution for all storage devi
 !!! Note
     The Hako-Core can accept up to 2 powerboards for a maximum power delivery of 1200W total
 
-![Installation Location](../../assets/lid-screw-location.png)
-
 **Before Mounting**: Ensure correct orientation of the board.
 
 1. Mount the powerboard in designated area of chassis (see above image) onto standoffs with the 4 provided screws.
@@ -32,42 +30,35 @@ The powerboard provides clean, regulated power distribution for all storage devi
 
 !!! Note
     The Hako-Core Mini can only accept a single powerboard.
-![Installation Location](../../assets/lid-screw-location.png)
 
 **Before Mounting**: Ensure correct orientation of the board.
 
 1. Mount the powerboard in designated area of chassis (see above image) onto standoffs with the 4 provided screws.
 
 ## **Power Distribution Map**
-![title](../imgs/PowerDistributionMap.png)
+![Powerboard Diagram](../imgs/PowerboardDiagram.jpg)
 
 ### Input Connections
+Each 8-Pin PCIe connector powers a specific set of hardware. If there is a set of hardware that is not being used in your configuration, connection is optional. 
+### 8-Pin PCIe IN 1
+- Row 1* Backplane 4
+- Row 1* Backplane 3
+- Fan wall 1
 
-The powerboard accepts up to 4 x 8-pin PCIe power connectors:
+### 8-Pin PCIe IN 2
+- Row 1* Backplane 2
+- Row 1* Backplane 1
 
-| Connector | Purpose | Power Rail |
-|-----------|---------|------------|
-| **8-Pin PCIe IN 1** | Primary power + fan power | 12V rail |
-| **8-Pin PCIe IN 2** | Additional power | 12V rail |
-| **8-Pin PCIe IN 3** | Additional power | 12V rail |
-| **8-Pin PCIe IN 4** | Additional power | 12V rail |
+### 8-Pin PCIe IN 3
+- Row 2* Backplane 4
+- Row 2* Backplane 3
+- Fan wall 2
 
+### 8-Pin PCIe IN 4
+- Row 2* Backplane 2
+- Row 2* Backplane 1
+- Fan wall 3**
 
-### Output Connections
-
-#### Hako-Core Power Harness
-
-Each 8-pin PCIe input corresponds to specific outputs on the 24-pin connector:
-
-| Input | Output Harness | Color Code |
-|-------|---------------|------------|
-| PCIe IN 1 | Harness 1 OUT 1A & 1B | 🟢 Green |
-| PCIe IN 2 | Harness 1 OUT 2A & 2B | 🟣 Purple |
-| PCIe IN 3 | Harness 2 OUT 3A & 3B | 🔵 Blue |
-| PCIe IN 4 | Harness 2 OUT 4A & 4B | 🟠 Orange |
-
-#### Fan Power Outputs
-
-- **4-Pin Fan OUT**: Direct fan power connections
-- **Powered by**: 8-Pin PCIe IN 1
-- **Control**: PWM speed control supported
+!!! note "Dual Powerboard Hako-Core Configuration"
+    \* ***Row 1*** and ***Row 2*** connections on the second powerboard are connected to ***Row 3*** and ***Row 4*** <br> 
+    ** The exposed ***Fan Wall 3*** headers can be used for other fans if there is no fan wall 3 in your configuration

@@ -4,30 +4,26 @@ Welcome to the official documentation for the Hako-Core Server Chassis. This com
 
 ## Quick Start
 
-1. [Read the safety cautions](cautions.md) before beginning
-2. Review the [specifications](specifications.md) to ensure compatibility
-3. Check the [Hardware Guides](/hardware/exploded-view) for installation and specifications.
-4. Check [backplanes](backplanes/12-ssd-backplane.md) for information on backplanes.
+Check the Quick Start guide that came packaged with your system. Head over to the [Get Started](welcome.md) page to get help with the rest of your set up.
 
-## What's Included
-
-!!! info "Version Information"
-    This documentation is for Hako-Core 4U Server Chassis **Version 1.0** (December 2024)
-
+## What is the Hako-Core
+<div class="video-center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aWI0lv6oNuc?si=COTBl7stZ-FIU3ub" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 The Hako-Core 4U Server Chassis is designed for high-density storage applications with support for:
 
 - **Multiple motherboard formats**: Mini-ITX, Micro ATX, ATX, EATX
-- **Flexible storage options**: SSDs, HDDs, and mixed configurations
-- **Cooling**: Support for up to 9 fans total
+- **Flexible storage options**: SSDs, HDDs, and mixed configurations with up to 48 hard drives.
+- **Cooling**: Support for up to 9 fans total along with accessory PCIe dedicated fans
 - **Modular design**: Expandable with additional cages and PCBs
 
 ## Getting Help
 
 For questions, support, or warranty issues:
 
-- 📧 **Email**: [help@hakoforge.com](mailto:help@hakoforge.com)
-- 📚 **GitHub**: All documentation versions available on our [GitHub repository](https://github.com/hakoforge)
-- ⚠️ **Warranty**: 90-day limited warranty included
+- **Email**: [help@hakoforge.com](mailto:help@hakoforge.com)
+- **GitHub**: All documentation versions available on our [GitHub repository](https://github.com/hakoforge)
+- **Warranty**: 90-day limited warranty included
 
 ---
 

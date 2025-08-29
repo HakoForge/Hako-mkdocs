@@ -18,6 +18,8 @@ The power harness acts as the distribution network between the central powerboar
 
 ### Technical Details
 
+<div class="table-center" markdown="1">
+
 | Parameter | Specification |
 |-----------|---------------|
 | **Input Connector** | 16-pin keyed connector |
@@ -25,6 +27,8 @@ The power harness acts as the distribution network between the central powerboar
 | **Current Rating** | 150 watts per 8-pin PCIe |
 | **Voltage** | 12V DC distribution |
 | **Length Options** | Short (18") and Long (36") variants |
+
+</div>
 
 ### Harness Variants
 
@@ -45,6 +49,8 @@ The power harness acts as the distribution network between the central powerboar
 ### Connector Pinout
 
 #### 16-Pin Input Connector
+<div class="table-center" markdown="1">
+
 | Pin | Function | Wire Color |
 |-----|----------|------------|
 | 1-4 | +12V Rail 1 | Red |
@@ -52,13 +58,19 @@ The power harness acts as the distribution network between the central powerboar
 | 9-12 | +12V Rail 2 | Red |
 | 13-16 | Ground Rail 2 | Black |
 
+</div>
+
 #### 4-Pin Output Connectors
+<div class="table-center" markdown="1">
+
 | Pin | Function | Wire Color |
 |-----|----------|------------|
 | 1 | +12V | Red |
 | 2 | Ground | Black |
 | 3 | +12V | Red |
 | 4 | Ground | Black |
+
+</div>
 
 ## Installation
 

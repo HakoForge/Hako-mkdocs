@@ -28,13 +28,13 @@ The Hako-Core chassis lid is designed for quick, tool-minimal removal while main
 
 ## Hako-Core Case
 
-![Panel Removal Process](../../assets/panel-removal-steps.png)
+![Panel Removal Process](//assets/panel-removal-steps.png)
 
 ### Removal Procedure
 
 #### Removing the Front Lid
 
-![Lid Screw Location](../../assets/lid-screw-location.png)
+![Lid Screw Location](//assets/lid-screw-location.png)
 
 1. Locate the lid screw on the top front edge of the chassis.
 2. Use a #2 Phillips head screwdriver to remove the screw.
@@ -43,7 +43,7 @@ The Hako-Core chassis lid is designed for quick, tool-minimal removal while main
 
 #### Removing the rear Lid
 
-![Lid Screw Location](../../assets/lid-screw-location.png)
+![Lid Screw Location](//assets/lid-screw-location.png)
 
 1. Locate the lid screws on the left and right side of the chassis and use a #2 Phillips head screwdriver to remove the screws.
 2. Locate the thumb screw on the back of the chassis and use a #2 Phillips head screwdriver to remove the screw.
@@ -61,7 +61,7 @@ The Hako-Core chassis lid is designed for quick, tool-minimal removal while main
 
 #### Reassembling the front lid
 1. Lower lid onto chassis.
-2. Slide lid toward the rear of the chasis.
+2. Slide lid toward the rear of the chassis.
 3. Reinstall the single screw on the top front edge of the chassis and tighten snugly.
 
 ## Hako-Core Mini Case
@@ -72,7 +72,7 @@ The Hako-Core chassis lid is designed for quick, tool-minimal removal while main
 
 #### Removing the Lid
 
-![Lid Screw Location](../../assets/lid-screw-location.png)
+![Lid Screw Location](//assets/lid-screw-location.png)
 
 1. Locate the lid screw on the top front edge of the chassis.
 2. Use a #2 Phillips head screwdriver to remove the screw.
@@ -83,5 +83,5 @@ The Hako-Core chassis lid is designed for quick, tool-minimal removal while main
 
 #### Reassembling the lid
 1. Lower lid onto chassis.
-3. Slide lid toward the front of the chasis.
+3. Slide lid toward the front of the chassis.
 5. Reinstall the securing screw and tighten snugly.

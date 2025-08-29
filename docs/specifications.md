@@ -7,11 +7,15 @@
 
 ![Hako-Core Dimensions](imgs/CoreDimensions.png)
 
+<div class="table-center" markdown="1">
+
 | Dimension | Measurement |
 |-----------|-------------|
 | **Length** | 34.0 in (863.6mm) |
 | **Width** | 17.25 in (438.15mm) |
 | **Height** | 6.875 in (174.6mm) |
+
+</div>
 
 ### Storage Capacity
 
@@ -20,6 +24,8 @@
 - **Mixed Configuration**: Combination of 2.5" and 3.5" drives
 
 ### Weight Specifications
+
+<div class="table-center" markdown="1">
 
 | Configuration | Weight |
 |---------------|--------|
@@ -30,23 +36,31 @@
 | **Fully Loaded** | ~35 to ~90 lbs |
 | *3 fans, 9 cages & PCBs, 42 HDD, 6 SSD* | *(depending on drives used)* |
 
+</div>
+
 ### Drive Power Capability
+
+<div class="table-center" markdown="1">
 
 | Configuration | Power Output |
 |---------------|--------------|
 | **Single Powerboard** | 600 Watts |
 | **Dual Powerboards** | 1,200 Watts |
 
+</div>
+
 ### Motherboard Support
 
 The Hako-Core supports a wide range of motherboard form factors:
 
-- ✅ **Mini-ITX**
-- ✅ **Micro ATX**
-- ✅ **ATX**
-- ✅ **EATX** (Extended ATX)
+- **Mini-ITX**
+- **Micro ATX**
+- **ATX**
+- **EATX** (Extended ATX)
 
 ### Fan Support
+
+<div class="table-center" markdown="1">
 
 | Location | Quantity | Notes |
 |----------|----------|-------|
@@ -54,6 +68,8 @@ The Hako-Core supports a wide range of motherboard form factors:
 | **Additional Front** | Up to 3 more | Requires removal of front drive cages |
 | **Additional Rear/Middle** | Up to 6 more | Requires removal of respective drive cages |
 | **Total Maximum** | 9 fans | With appropriate cage removal |
+
+</div>
 
 ### Power Supply Support
 
@@ -86,13 +102,17 @@ The Hako-Core supports a wide range of motherboard form factors:
 
 ### Physical Dimensions
 
-![Hako-Core Mini Dimensions](../assets/hakocore-dimensions.png)
+![Hako-Core Mini Dimensions](imgs/CoreDimensions.png)
+
+<div class="table-center" markdown="1">
 
 | Dimension | Measurement |
 |-----------|-------------|
 | **Length** | 34.0 in (863.6mm) |
 | **Width** | 17.25 in (438.15mm) |
 | **Height** | 6.875 in (174.6mm) |
+
+</div>
 
 ### Storage Capacity
 
@@ -121,12 +141,14 @@ The Hako-Core supports a wide range of motherboard form factors:
 
 The Hako-Core Mini supports a wide range of motherboard form factors:
 
-- ✅ **Mini-ITX**
-- ✅ **Micro ATX**
-- ✅ **ATX**
-- ✅ **EATX** (Extended ATX)
+- **Mini-ITX**
+- **Micro ATX**
+- **ATX**
+- **EATX** (Extended ATX)
 
 ### Fan Support
+
+<div class="table-center" markdown="1">
 
 | Location | Quantity | Notes |
 |----------|----------|-------|
@@ -134,6 +156,8 @@ The Hako-Core Mini supports a wide range of motherboard form factors:
 | **Additional Front** | Up to 3 more | Requires removal of front drive cages |
 | **Additional Rear/Middle** | Up to 6 more | Requires removal of respective drive cages |
 | **Total Maximum** | 9 fans | With appropriate cage removal |
+
+</div>
 
 ### Power Supply Support
 

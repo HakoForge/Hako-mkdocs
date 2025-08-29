@@ -15,7 +15,11 @@ nav:
   - Getting Started:
     - Welcome: welcome.md
     - Safety & Cautions: cautions.md
-    - Specifications: specifications.md
+    - Powerboard Connections: connections.md
+    - Component Installation: components.md
+    - Chassis Accessories: accessories.md
+    - Chassis Fans: fans.md
+    - Hako Foundry: foundry.md
   - Hardware Guide:
     - Cage Installation: hardware/cage-installation.md
     - Exploded View: hardware/exploded-view.md
@@ -29,6 +33,7 @@ nav:
     - 12-SSD Backplane: backplanes/12-ssd-backplane.md
     - 4-HDD Backplane: backplanes/4-hdd-backplane.md
     - Mixed 4-Bay Backplane: backplanes/mixed-4-bay-backplane.md
+  - Specifications: specifications.md
   - Support:
     - Warranty: warranty.md
 
@@ -64,16 +69,16 @@ theme:
     - content.code.copy
     - content.code.annotate
   logo: Logo.png
-  favicon: assets/favicon.ico
+  favicon: imgs/Hako_Logo.ico
 
 # Extensions
 markdown_extensions:
   - admonition
+  - attr_list
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
-  - attr_list
   - md_in_html
   - tables
   - toc:

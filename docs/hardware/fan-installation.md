@@ -10,21 +10,29 @@
 ### Maximum Fan Configuration
 #### Hako-Core
 
+<div class="table-center" markdown="1">
+
 | Location | Included | Additional | Total |
 |----------|----------|------------|-------|
 | **Front Panel** | 3 fans | 0 fans | 3 fans |
 | **Middle Cage Bracket** | 0 fans | +3 fans | 3 fans |
 | **Rear Cage Bracket** | 0 fans | +3 fans | 3 fans |
 | **Grand Total** | 3 fans | +6 fans | **9 fans** |
+
+</div>
 
 #### Hako-Core Mini
 
+<div class="table-center" markdown="1">
+
 | Location | Included | Additional | Total |
 |----------|----------|------------|-------|
 | **Front Panel** | 3 fans | 0 fans | 3 fans |
 | **Middle Cage Bracket** | 0 fans | +3 fans | 3 fans |
 | **Rear Cage Bracket** | 0 fans | +3 fans | 3 fans |
 | **Grand Total** | 3 fans | +6 fans | **9 fans** |
+
+</div>
 
 
 ## Front Panel Fan Installation
