@@ -10,9 +10,9 @@ This backplane is optimized for traditional 3.5" hard disk drives, providing the
 
 ### Key Features
 
-- 12 SATA/SAS 2.5" drive connectors for maximum storage density
+- 4 SATA/SAS 3.5" drive connectors for traditional hard drives
 - Integrated 5V power regulation from 12V input
-- Triple SAS output connectors for flexible HBA connectivity
+- Single SAS output connector for HBA connectivity
 - Hot-swap capability with proper drive cages
 - LED activity indicators for each drive bay
 

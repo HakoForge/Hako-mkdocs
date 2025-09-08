@@ -62,3 +62,7 @@ Each 8-Pin PCIe connector powers a specific set of hardware. If there is a set o
 !!! note "Dual Powerboard Hako-Core Configuration"
     \* ***Row 1*** and ***Row 2*** connections on the second powerboard are connected to ***Row 3*** and ***Row 4*** <br> 
     ** The exposed ***Fan Wall 3*** headers can be used for other fans if there is no fan wall 3 in your configuration
+
+##Fan Control
+
+Visit the [Connections](../connections.md) page to see how to configure the powerboard fan control features.

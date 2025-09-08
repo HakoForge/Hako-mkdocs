@@ -1,85 +1,42 @@
 # Fan Installation
 
-
 ## Overview
+!!! warning "Fan Thickness Compatibility"
+    Only ***Fan Wall 1*** and ***Fan wall 3*** are capable of **35mm** thickness fans. ***Fan Wall 2*** is only able to fit **25mm** thickness fans.
+!!! info "Fan Wall Compatibility"
+    All fan walls use **120mm** fans.
+### Hako-Core
+- Hako-Core supports up to **3 fan walls totaling 9 fans total** (120mm)
+- 1 Exhaust fan (80mm or 92mm)
+- Auxiliary fans for PCIe cooling
+### Hako-Core Mini
+- Hako-Core Mini supports up to **2 fan walls totaling 6 fans total** (120mm)
+- 1 Exhaust fan (80mm or 92mm)
+- Auxiliary fans for PCIe cooling
 
-### Key Features
-- Hako-Core supports up to 9 fans
-- Hako-Core Mini supports up to 6 fans
+## Installation Process
+!!! danger "Safety First"
+    It is always recommended to power down the system when working inside the case.
 
-### Maximum Fan Configuration
-#### Hako-Core
+Check out the [Chassis Fans](../fans.md) page to see how the fans are installed and connected
 
-<div class="table-center" markdown="1">
+## Powering Fans
+<div align="center" markdown="1">
 
-| Location | Included | Additional | Total |
-|----------|----------|------------|-------|
-| **Front Panel** | 3 fans | 0 fans | 3 fans |
-| **Middle Cage Bracket** | 0 fans | +3 fans | 3 fans |
-| **Rear Cage Bracket** | 0 fans | +3 fans | 3 fans |
-| **Grand Total** | 3 fans | +6 fans | **9 fans** |
-
-</div>
-
-#### Hako-Core Mini
-
-<div class="table-center" markdown="1">
-
-| Location | Included | Additional | Total |
-|----------|----------|------------|-------|
-| **Front Panel** | 3 fans | 0 fans | 3 fans |
-| **Middle Cage Bracket** | 0 fans | +3 fans | 3 fans |
-| **Rear Cage Bracket** | 0 fans | +3 fans | 3 fans |
-| **Grand Total** | 3 fans | +6 fans | **9 fans** |
+![Powerboard Fan Diagram](../imgs/FanPowerDiagram.jpg){: style="width: 400px; height: auto;"}
 
 </div>
+The fans are powered by the 8-pin PCIe connections on the powerboard. 
+Each 8-Pin PCIe connector powers a specific set of hardware. If there is a set of hardware that is not being used in your configuration, connection is optional. 
+### 8-Pin PCIe IN 1
+- Fan wall 1
 
 
-## Front Panel Fan Installation
+### 8-Pin PCIe IN 3
+- Fan wall 2
 
+### 8-Pin PCIe IN 4
+- Fan wall 3**
 
-![Front Fan Mounting](../imgs/combined_fan_assembly.png)
-
-### Installation Process
-
-!!! important "Cage Removal Required"
-    There must be **no drive cages installed in the first row** to access fan mounting points.
-
-1. Locate the magnetic attachment points on the front panel
-2. Gently pull the panel away from the chassis - magnets will release
-3. Use provided screws to secure the fans onto the mounting locations.
-4. Connect fan power and control cables
-
-## Rear and Middle Fan Installation
-
-![Rear/Middle Fan Mounting](../imgs/rearFans.png)
-
-### Installation Process
-
-!!! warning "Cage Clearance"
-    There must be **no cages installed around the respective rows** for fan access. Remove cages before attempting fan installation.
-
-1. Remove relevant drive cages from the target row
-3. Mount fans in correct orientation (airflow pointing out the back of the chassis)  
-4. Secure with provided screws
-5. Connect fan power and control cables
-
-
-## Power and Control Connections
-
-### Fan Power Options
-
-1. **Hako-Core Powerboard**
-    - 4-pin fan outputs available
-    - Powered by PCIe IN 1 rail
-    - Up to 4 fans per powerboard
-
-2. **Hako-Core Mini Powerboard**
-    - 4-pin fan outputs available
-    - Powered by PCIe IN 1 rail
-    - Up to 4 fans per powerboard
-
-3. **Dedicated Fan Controller**
-    - External PWM controller
-    - Advanced temperature-based control
-    - Support for many fans
+## Controlling Fans
+Visit the [Powerboard Connections](../connections.md) page for more information on how the fans are controlled. 

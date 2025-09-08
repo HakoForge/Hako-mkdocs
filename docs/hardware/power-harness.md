@@ -8,12 +8,6 @@ The Hako-Core power harness system distributes clean, regulated power from the c
 
 The power harness acts as the distribution network between the central powerboard and the individual backplanes.
 
-### Key Features
-
-- Modular design with two harness lengths
-- 16-pin to 4-pin distribution architecture  
-- Overcurrent protection at the powerboard level
-
 ## Harness Specifications
 
 ### Technical Details
@@ -32,13 +26,11 @@ The power harness acts as the distribution network between the central powerboar
 
 ### Harness Variants
 
-#### Short Harness (18" / .4cm)
-- **Use case**: PCBs in first two rows from the front of the chasis
-- **Quantity needed**: 1-8 per system
+#### Short Harness (18 inch)
+Used for the PCBs in first two rows from the front of the chasis
 
-#### Long Harness (36" / 914mm)  
-- **Use case**: PCBs in the 3rd and 4th rows from the front of the chasis
-- **Quantity needed**: 1-8 per system
+#### Long Harness (36 inch)  
+Used for the PCBs in the 3rd and 4th rows from the front of the chasis
 
 ## Connection Architecture
 
@@ -47,29 +39,26 @@ The power harness acts as the distribution network between the central powerboar
 ![title](../imgs/powerharness.png)
 
 ### Connector Pinout
-
-#### 16-Pin Input Connector
-<div class="table-center" markdown="1">
-
-| Pin | Function | Wire Color |
-|-----|----------|------------|
-| 1-4 | +12V Rail 1 | Red |
-| 5-8 | Ground Rail 1 | Black |
-| 9-12 | +12V Rail 2 | Red |
-| 13-16 | Ground Rail 2 | Black |
-
-</div>
-
-#### 4-Pin Output Connectors
+#### 4-Pin Output Connectors To Backplane
 <div class="table-center" markdown="1">
 
 | Pin | Function | Wire Color |
 |-----|----------|------------|
 | 1 | +12V | Red |
-| 2 | Ground | Black |
-| 3 | +12V | Red |
+| 2 | +12V | Red |
+| 3 | Ground | Black |
 | 4 | Ground | Black |
+</div>
 
+#### 16-Pin Input Connector From Powerboard
+<div class="table-center" markdown="1">
+
+| Pin | Function | Wire Color |
+|-----|----------|------------|
+| 1-4 | +12V Connection 1 | Red |
+| 5-8 | +12V Connection 2 | Red |
+| 9-12 | Ground Connection 1 | Black |
+| 13-16 | Ground Connection 2 | Black |
 </div>
 
 ## Installation

@@ -31,7 +31,7 @@ With the jumper in this position, all fan headers will be controlled by the ***P
 </div>
 <div markdown="1" style="grid-column: 1 / -1;">
 
-With the jumper in this position, all fan headers will be controlled by the powerboard. A USB connection is required. With the Hako Foundry software, you're able to control each fan wall individually. 
+With the jumper in this position, all fan headers will be controlled by the powerboard. A USB connection is required. With the [Hako Foundry](foundry.md) software, you're able to control each fan wall individually. 
 </div>
 </div>
 

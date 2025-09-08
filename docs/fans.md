@@ -1,6 +1,8 @@
 # Chassis Fans
 !!! warning "Fan Thickness Compatibility"
     Only ***Fan Wall 1*** and ***Fan wall 3*** are capable of **35mm** thickness fans. ***Fan Wall 2*** is only able to fit **25mm** thickness fans.
+!!! info "Fan Wall Compatibility"
+    All fan walls use **120mm** fans.
 ## Fan Wall 1
 ![Front Fan Wall](imgs/FrontFanWallMount.jpg)
 Remove the magnetic faceplate and install the fans using the mounting holes.

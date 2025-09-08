@@ -24,14 +24,15 @@ nav:
     - Cage Installation: hardware/cage-installation.md
     - Exploded View: hardware/exploded-view.md
     - Fan Installation: hardware/fan-installation.md
-    - Lid Installation: hardware/panel-removal.md
+    - Lid Removal: hardware/panel-removal.md
     - PCB Installation: hardware/pcb-installation.md
     - Powerboard: hardware/powerboard.md
     - Power Harness: hardware/power-harness.md
     - SAS Routing: hardware/wire-routing.md
   - Backplanes:
-    - 12-SSD Backplane: backplanes/12-ssd-backplane.md
     - 4-HDD Backplane: backplanes/4-hdd-backplane.md
+    - 12-SSD Backplane: backplanes/12-ssd-backplane.md
+    - 4-U.2 Backplane: backplanes/4-u.2-backplane.md
     - Mixed 4-Bay Backplane: backplanes/mixed-4-bay-backplane.md
   - Specifications: specifications.md
   - Support:
