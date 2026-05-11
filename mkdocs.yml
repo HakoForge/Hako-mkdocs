@@ -29,6 +29,7 @@ nav:
     - Powerboard: hardware/powerboard.md
     - Power Harness: hardware/power-harness.md
     - SAS Routing: hardware/wire-routing.md
+    - Management Arm Installation: hardware/cable-management-arm-install.md
   - Backplanes:
     - 4-HDD Backplane: backplanes/4-hdd-backplane.md
     - 12-SSD Backplane: backplanes/12-ssd-backplane.md

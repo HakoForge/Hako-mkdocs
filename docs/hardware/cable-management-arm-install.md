@@ -10,7 +10,7 @@ For example, the Core 34", you will need a rack that is deeper than 40" inches o
 
 ### Part Number
 
-MCP-290-00073-0N
+**MCP-290-00073-0N**
 
 
 ## Installation Procedure
@@ -19,13 +19,9 @@ Parts
 
 ![Box](../imgs/Cable_Mang_Arm_Part0.jpg)
 
-Rack Bracket
-![Rack-Part](../imgs/Cable_Mang_Arm_Part1.jpg)
 
-
-
-### Installing the Case Brackets
-Case Bracket - this part will be attached to the case.
+### **Installing the Case Brackets**
+**Case Bracket** - this part will be attached to the case.
 ![Case-Part](../imgs/Cable_Mang_Arm_Part2.jpg)
 
 !!! info "Alignment"
@@ -39,8 +35,8 @@ Case Bracket - this part will be attached to the case.
 ![Case-Part2](../imgs/Cable_Mang_Arm_Case_Install2.jpg)
 
 
-### Installing the Rack Brackets
-Rack Bracket - this part will be attached to the rack/rail.
+### **Installing the Rack Brackets**
+**Rack Bracket** - this part will be attached to the rack/rail.
 ![Rack-Part](../imgs/Cable_Mang_Arm_Part1.jpg)
 
 !!! info "Stability"
@@ -53,8 +49,8 @@ Rack Bracket - this part will be attached to the rack/rail.
 ![Rack-Part1](../imgs/Cable_Mang_Arm_Rack_Install1.jpg)
 
 
-### Installing the Arm
-Arm - this part will be attached to the 2 brackets. Case Bracket and Rack Bracket.
+### **Installing the Arm**
+**Arm** - this part will be attached to the 2 brackets. Case Bracket and Rack Bracket.
 
 1. Align the side that says "Chassis side" with the case, and pulled on both alignment pins on the arm to retract them and allow for them to go into the bracket.
 2. Do the same on the opposite end of the arm.
