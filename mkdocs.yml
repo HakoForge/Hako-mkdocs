@@ -1,6 +1,6 @@
 # MkDocs configuration for Hako-Core 4U Server Chassis documentation
-site_name: Hako-Core 4U Server Chassis User Manual
-site_description: Complete user manual for the Hako-Core 4U Server Chassis
+site_name: Hako User Manuals
+site_description: User manuals for HakoForge server chassis products
 site_author: HakoForge
 site_url: https://docs.hakoforge.com
 
@@ -12,36 +12,60 @@ edit_uri: edit/main/docs/
 # Navigation structure
 nav:
   - Home: index.md
-  - Getting Started:
-    - Welcome: welcome.md
-    - Safety & Cautions: cautions.md
-    - Powerboard Connections: connections.md
-    - Component Installation: components.md
-    - Chassis Accessories: accessories.md
-    - Chassis Fans: fans.md
-    - Hako Foundry: foundry.md
-  - Hardware Guide:
-    - Cage Installation: hardware/cage-installation.md
-    - Exploded View: hardware/exploded-view.md
-    - Fan Installation: hardware/fan-installation.md
-    - Lid Removal: hardware/panel-removal.md
-    - PCB Installation: hardware/pcb-installation.md
-    - Powerboard: hardware/powerboard.md
-    - Power Harness: hardware/power-harness.md
-    - SAS Routing: hardware/wire-routing.md
-    - Management Arm Installation: hardware/cable-management-arm-install.md
-  - Backplanes:
-    - 4-HDD Backplane: backplanes/4-hdd-backplane.md
-    - 12-SSD Backplane: backplanes/12-ssd-backplane.md
-    - 4-U.2 Backplane: backplanes/4-u.2-backplane.md
-    - Mixed 4-Bay Backplane: backplanes/mixed-4-bay-backplane.md
-  - Specifications: specifications.md
-  - Support:
-    - Warranty: warranty.md
+  - Hako-Core:
+    - Home: hako-core/index.md
+    - Specifications: hako-core/specifications.md
+    - Getting Started:
+      - Welcome: hako-core/welcome.md
+      - Safety & Cautions: hako-core/cautions.md
+      - Powerboard Connections: hako-core/connections.md
+      - Component Installation: hako-core/components.md
+      - Chassis Accessories: hako-core/accessories.md
+      - Chassis Fans: hako-core/fans.md
+      - Hako Foundry: hako-core/foundry.md
+    - Hardware Guide:
+      - Cage Installation: hako-core/hardware/cage-installation.md
+      - Exploded View: hako-core/hardware/exploded-view.md
+      - Fan Installation: hako-core/hardware/fan-installation.md
+      - Lid Removal: hako-core/hardware/panel-removal.md
+      - PCB Installation: hako-core/hardware/pcb-installation.md
+      - Powerboard: hako-core/hardware/powerboard.md
+      - Power Harness: hako-core/hardware/power-harness.md
+      - SAS Routing: hako-core/hardware/wire-routing.md
+      - Management Arm Installation: hako-core/hardware/cable-management-arm-install.md
+    - Backplanes:
+      - 4-HDD Backplane: hako-core/backplanes/4-hdd-backplane.md
+      - 12-SSD Backplane: hako-core/backplanes/12-ssd-backplane.md
+      - 4-U.2 Backplane: hako-core/backplanes/4-u.2-backplane.md
+      - Mixed 4-Bay Backplane: hako-core/backplanes/mixed-4-bay-backplane.md
+    - Support:
+      - Warranty: hako-core/warranty.md
+  - HakoForge-Lite 1:
+    - Home: hf-l1/index.md
+    - Specifications: hf-l1/specifications.md
+    - Getting Started:
+      - Welcome: hf-l1/welcome.md
+      - Safety & Cautions: hf-l1/cautions.md
+      - Power: hf-l1/power.md
+      - Chassis Accessories: hf-l1/accessories.md
+      - Hako Foundry: hf-l1/foundry.md
+    - Hardware Guide:
+      - Exploded View: hf-l1/hardware/exploded-view.md
+      - Top Panel Removal: hf-l1/hardware/panel-removal.md
+      - Wire Routing: hf-l1/hardware/wire-routing.md
+      - Fan Installation: hf-l1/hardware/fan-installation.md
+      - Cage Installation: hf-l1/hardware/cage-installation.md
+      - Chassis Feet: hf-l1/hardware/chassis-feet.md
+      - Management Arm Installation: hf-l1/hardware/cable-management-arm-install.md
+    - Backplanes:
+      - Overview: hf-l1/backplanes/index.md
+    - Support:
+      - Warranty: hf-l1/warranty.md
 
 # Theme configuration
 theme:
   name: material
+  custom_dir: overrides
   palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
@@ -94,10 +118,6 @@ plugins:
 # Extra CSS
 extra_css:
   - stylesheets/extra.css
-
-# Extra JavaScript
-extra_js:
-  - javascripts/extra.js
 
 # Footer
 extra:

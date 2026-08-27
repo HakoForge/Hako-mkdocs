@@ -1,0 +1,22 @@
+{#-
+  Context-aware repo link: point the top-right GitHub link at the repo for
+  whichever product section the visitor is currently viewing.
+  HF-L1 pages -> HF-L1 repo; everything else -> HakoCore repo.
+-#}
+{% set _url = page.url | default('', true) %}
+{% if _url.startswith('hf-l1/') %}
+  {% set _repo_url = 'https://github.com/HakoForge/HF-L1' %}
+  {% set _repo_name = '/HakoForge/HF-L1' %}
+{% else %}
+  {% set _repo_url = 'https://github.com/HakoForge/HakoCore' %}
+  {% set _repo_name = '/HakoForge/HakoCore' %}
+{% endif %}
+<a href="{{ _repo_url }}" title="{{ lang.t('source') }}" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    {% set icon = config.theme.icon.repo or "fontawesome/brands/git-alt" %}
+    {% include ".icons/" ~ icon ~ ".svg" %}
+  </div>
+  <div class="md-source__repository">
+    {{ _repo_name }}
+  </div>
+</a>

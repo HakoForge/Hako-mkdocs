@@ -258,9 +258,48 @@
     .md-button.hf-primary:hover {
       transform: none;
     }
-    
+
     * {
       transition: none !important;
       animation: none !important;
     }
+  }
+
+  /* ===== IMAGE PLACEHOLDERS ===== */
+  .hf-placeholder {
+    border: 2px dashed var(--hf-orange);
+    background: var(--hf-light-gray);
+    color: var(--hf-dark);
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .hf-placeholder code {
+    background: rgba(0,0,0,.06);
+    color: var(--hf-orange-dark);
+  }
+
+  [data-md-color-scheme="slate"] .hf-placeholder {
+    box-shadow: 0 2px 8px rgba(0,0,0,.4);
+  }
+
+  /* ===== HF-L1 PRODUCT GALLERY ===== */
+  .hf-product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0;
+  }
+  .hf-product-gallery img {
+    flex: 1 1 300px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  @media screen and (max-width: 600px) {
+    .hf-product-gallery img { flex-basis: 100%; }
   }

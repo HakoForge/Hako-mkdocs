@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Claude Code local session/memory state
+.claude/
+
+# Source manuals (kept out of the published repo)
+*.docx
+*.pdf
