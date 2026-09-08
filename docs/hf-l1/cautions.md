@@ -1,7 +1,7 @@
 # Safety & Cautions
 
 !!! danger "Important Safety Information"
-    This chassis is designed for use with ATX power supplies and high-current components. Incorrect use of power supplies or improper wiring may result in electric shock, fire, or equipment damage.
+    This chassis is designed for use with ATX and CRPS power supplies and high-current components. Incorrect use of power supplies or improper wiring may result in electric shock, fire, or equipment damage.
 
 ## To Protect Yourself and Other Electronic Components
 

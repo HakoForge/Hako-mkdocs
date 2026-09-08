@@ -1,6 +1,6 @@
 # Power
 
-This chassis does not require a power board. Instead, it uses 4 PATA power cables directly from the PSU, connected to the backplane at the indicated areas below. 2 extension cables are included to help you.
+This chassis does not require a power board like our Core and Mini line of products. Instead, it uses 4 PATA power cables directly from the PSU, connected to the backplane at the indicated areas below. 2 extension cables are included to help you.
 
 <div align="center" markdown="1">
 

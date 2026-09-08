@@ -21,6 +21,7 @@ nav:
       - Powerboard Connections: hako-core/connections.md
       - Component Installation: hako-core/components.md
       - Chassis Accessories: hako-core/accessories.md
+      - CRPS PSU Adapter: hako-core/psu-adapter.md
       - Chassis Fans: hako-core/fans.md
       - Hako Foundry: hako-core/foundry.md
     - Hardware Guide:
@@ -48,6 +49,7 @@ nav:
       - Safety & Cautions: hf-l1/cautions.md
       - Power: hf-l1/power.md
       - Chassis Accessories: hf-l1/accessories.md
+      - CRPS PSU Adapter: hf-l1/psu-adapter.md
       - Hako Foundry: hf-l1/foundry.md
     - Hardware Guide:
       - Exploded View: hf-l1/hardware/exploded-view.md
@@ -61,6 +63,16 @@ nav:
       - Overview: hf-l1/backplanes/index.md
     - Support:
       - Warranty: hf-l1/warranty.md
+  - How To Guides:
+    - Browse Guides: guides/index.md
+    - Hako-Core Guides:
+      - Overview: guides/hako-core/index.md
+      - Guide Template: guides/hako-core/guide-template.md
+    - HakoForge-Lite 1 Guides:
+      - Overview: guides/hf-l1/index.md
+      - Cage Installation: guides/hf-l1/cage-installation.md
+      - Management Arm Installation: guides/hf-l1/management-arm-installation.md
+      - Guide Template: guides/hf-l1/guide-template.md
 
 # Theme configuration
 theme:

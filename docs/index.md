@@ -10,7 +10,7 @@ Welcome to the official documentation hub for HakoForge server chassis products.
 
     The 4U high-density server chassis — support for up to 48 drives, up to 9 fans, and modular cages & PCBs.
 
-    [Open the Hako-Core manual](hako-core/index.md){ .md-button .hf-primary }
+    [Manual](hako-core/index.md){ .md-button .hf-primary }
 
 -   ### HakoForge-Lite 1
 
@@ -18,6 +18,6 @@ Welcome to the official documentation hub for HakoForge server chassis products.
 
     A compact, pre-assembled 4U chassis powered directly from the PSU via PATA — a simpler entry into the Forge.
 
-    [Open the HF-L1 manual](hf-l1/index.md){ .md-button .hf-primary }
+    [Manual](hf-l1/index.md){ .md-button .hf-primary }
 
 </div>

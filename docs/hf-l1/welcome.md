@@ -1,6 +1,6 @@
 # Welcome to the Forge!
 
-Thank you for supporting HakoForge! This user manual will guide you through the installation and usage of the HakoForge Lite 1 (HF-L1) chassis components and products.
+Thank you for supporting HakoForge! This user manual will guide you through the installation and usage of the HakoForge-Lite 1 (HF-L1) chassis components and products.
 
 ## About This Manual
 
