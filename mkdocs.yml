@@ -63,16 +63,10 @@ nav:
       - Overview: hf-l1/backplanes/index.md
     - Support:
       - Warranty: hf-l1/warranty.md
-  - How To Guides:
-    - Browse Guides: guides/index.md
-    - Hako-Core Guides:
-      - Overview: guides/hako-core/index.md
-      - Guide Template: guides/hako-core/guide-template.md
-    - HakoForge-Lite 1 Guides:
-      - Overview: guides/hf-l1/index.md
-      - Cage Installation: guides/hf-l1/cage-installation.md
-      - Management Arm Installation: guides/hf-l1/management-arm-installation.md
-      - Guide Template: guides/hf-l1/guide-template.md
+
+# Hidden for now — the How To Guides section is kept in docs/guides/ but excluded
+# from the build (see exclude_docs below). Restore the nav block above and remove
+# the exclude_docs entry to bring it back.
 
 # Theme configuration
 theme:
@@ -121,6 +115,10 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
+
+# Exclude the How To Guides from the build for now (files kept in docs/guides/)
+exclude_docs: |
+  guides/
 
 # Plugins
 plugins:
