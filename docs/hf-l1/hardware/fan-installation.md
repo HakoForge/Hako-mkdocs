@@ -5,12 +5,14 @@ The HF-L1 comes **preinstalled with 3 fans on the front**. The power cables for 
 ## Overview
 !!! info "Fan Sizing Compatibility"
     - Front fans use **120mm** fans.
+    - Middle row uses **120mm** fans, or a radiator can be mounted in this row.
     - Exhaust fan can be either **80mm or 92mm**
     - Angled and horizontal auxiliary fan brackets can be bought seperately and support **82mm, 90mm, or 120mm**.
 
 
-- 6 Fans Total
+- 9 Fans Total
     - **3 front fans** — 3x ARCTIC P12 Pro PST preinstalled; power cables routed underneath the preinstalled PCB
+    - **3 middle row fans** — 120mm, or mount a radiator in this row
     - **1 rear exhaust fan** (80mm or 92mm) — **Not included**
     - **2 auxiliary fans** for PCIe cooling — 1 angled and 1 horizontal, brackets and fans sold seperately and support 82mm, 90mm, and 120mm fans.
 
