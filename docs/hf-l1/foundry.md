@@ -11,4 +11,4 @@ The Hako Foundry is the companion Docker app that is available on our [GitHub](h
 Check the README there for a full explanation.
 
 !!! note "Optional Power Board"
-    A power board can be purchased separately for PWM fan control and usage of HakoFoundry.
+    A [power board](https://hakoforge.com/collections/pcbs/products/hakoforge-power-board) must be purchased separately for PWM fan control and usage of HakoFoundry.

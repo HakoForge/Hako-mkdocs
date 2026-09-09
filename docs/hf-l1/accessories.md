@@ -1,7 +1,6 @@
 # Chassis Accessories
 ## Server Rails
 
-### HF-L1
 ![Server Rail HF-L1](imgs/ServerRailMini.jpg)
 
 
@@ -22,3 +21,13 @@ These metal flanges are used to secure the Hako-Core to a server rack's frame.
 
 !!! warning "Supporting The Chassis In A Server Rack"
     The rack ears alone are **not enough** to hold the chassis in a server rack. Server rails must be used. Rack ears are only to prevent the chassis from sliding out of the rack.
+
+## Chassis Feet
+
+<div align="center" markdown="1">
+
+![HF-L1 chassis feet installed for standing configuration](imgs/ChassisFeet.webp){: style="max-width: 480px; width: 100%;"}
+
+</div>
+
+Available to purchase are 4 feet that can be screwed onto the side of the case to have a standing configuration.

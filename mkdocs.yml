@@ -42,10 +42,9 @@ nav:
     - Support:
       - Warranty: hako-core/warranty.md
   - HakoForge-Lite 1:
-    - Home: hf-l1/index.md
+    - Welcome: hf-l1/index.md
     - Specifications: hf-l1/specifications.md
     - Getting Started:
-      - Welcome: hf-l1/welcome.md
       - Safety & Cautions: hf-l1/cautions.md
       - Power: hf-l1/power.md
       - Chassis Accessories: hf-l1/accessories.md
@@ -57,10 +56,7 @@ nav:
       - Wire Routing: hf-l1/hardware/wire-routing.md
       - Fan Installation: hf-l1/hardware/fan-installation.md
       - Cage Installation: hf-l1/hardware/cage-installation.md
-      - Chassis Feet: hf-l1/hardware/chassis-feet.md
       - Management Arm Installation: hf-l1/hardware/cable-management-arm-install.md
-    - Backplanes:
-      - Overview: hf-l1/backplanes/index.md
     - Support:
       - Warranty: hf-l1/warranty.md
 

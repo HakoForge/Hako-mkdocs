@@ -9,5 +9,5 @@
 !!! danger "Safety First"
     It is always recommended to disconnect power before doing any installation or maintenance when possible.
 
-1. Remove the screw on the lid.
+1. Remove the screw holding the lid on.
 2. Slide the lid back, then lift up.

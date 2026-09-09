@@ -20,8 +20,9 @@
 | **Materials** | Powder coated steel |
 | **Dimensions** | 20.25" x 17.25" x 6.875" |
 | **Backplane** | 1 preinstalled backplane |
+| **Drive Support** | Up to 16 drives |
 | **Motherboard Support** | CEB, ATX, Micro ATX, Mini-ITX |
-| **PSU Support** | ATX, SFX (with adapter) |
-| **Fans** | 3 included fans |
+| **PSU Support** | ATX, CRPS with adapter |
+| **Fans** | 3 included fans, up to 9 |
 
 </div>
