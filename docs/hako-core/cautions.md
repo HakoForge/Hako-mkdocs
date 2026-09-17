@@ -37,7 +37,7 @@ To protect yourself and electronic components:
 - Route cables properly to avoid pinching or interference
 - Check for interference before closing panels
 
-## 📋 General Safety Guidelines
+## General Safety Guidelines
 
 ### Component Handling
 

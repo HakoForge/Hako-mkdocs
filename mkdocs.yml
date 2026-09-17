@@ -12,17 +12,16 @@ edit_uri: edit/main/docs/
 # Navigation structure
 nav:
   - Home: index.md
-  - Hako-Core:
-    - Home: hako-core/index.md
+  - Hako-Core and Mini:
+    - Welcome: hako-core/index.md
     - Specifications: hako-core/specifications.md
     - Getting Started:
-      - Welcome: hako-core/welcome.md
+      - What's in the Box: hako-core/whats-in-the-box.md
       - Safety & Cautions: hako-core/cautions.md
       - Powerboard Connections: hako-core/connections.md
       - Component Installation: hako-core/components.md
       - Chassis Accessories: hako-core/accessories.md
       - CRPS PSU Adapter: hako-core/psu-adapter.md
-      - Chassis Fans: hako-core/fans.md
       - Hako Foundry: hako-core/foundry.md
     - Hardware Guide:
       - Cage Installation: hako-core/hardware/cage-installation.md

@@ -25,7 +25,70 @@ For the fans themselves, we recommend the [Noctua NF-F12 industrialPPC-3000 PWM]
 !!! danger "Safety First"
     It is always recommended to power down the system when working inside the case.
 
-Check out the [Chassis Fans](../fans.md) page to see how the fans are installed and connected
+### Fan Wall 1
+![Front Fan Wall](../imgs/FrontFanWallMount.jpg)
+Remove the magnetic faceplate and install the fans using the mounting holes.
+![Air Blocks](../imgs/AirBlocks.jpg)
+!!! info "Air Block Clearance"
+    The 3D printed air blocks may be too tight for fan installation. Unscrew these and reinstall them **along** with the fan at the same time to get them to fit together. 
+#### Fan Headers
+![Front Fan Wall Headers](../imgs/FrontFanWallWires.jpg)
+The fan headers for ***Fan Wall 1*** are located above the the left fan and connect to the powerboard. Plug the fans in here and tuck the wires in between the fans. 
+
+### Fan Wall 2/3
+![Middle Fan Wall](../imgs/MiddleFanWall.jpg)
+!!! tip "Middle Fan Headers"
+    ***Fan Wall 2*** uses fan extension cable to connect to the powerboard. Plugging the fans in first and tucking the wires under the fan makes the install easier. 
+Install the fans using the mounting holes. Fan wall 2 and 3 use similar mounting points. The fourth screw on the edge fans are not used.
+#### Fan Extension
+![Middle Wall Headers](../imgs/MiddleFanWallWires.jpg)
+This cable is used for ***Fan Wall 2***.
+#### Exposed Powerboard Headers
+![Powerboard Fan Headers](../imgs/ExposedFanHeaders.jpg)
+***Fan Wall 3*** uses the exposed fan headers on the powerboard.
+!!! info "Hako-Core Mini Fan Walls"
+    The Hako-Core Mini does not utilize a third fan wall so the exposed headers can be used for any other fans you may have.
+
+### Exhaust Fan
+![Exhaust Fan](../imgs/ExhaustFan.jpg)
+Use the 2 mount points to install a 80 mm or 92 mm fan to help facilitate airflow. 
+
+### Auxiliary Fans
+
+Auxiliary fans mount to one of two brackets, sold separately.
+
+#### Angled Fan Bracket
+![Angled Bracket](../imgs/AngledFanBracket.jpg)
+Use 2 of the mounting holes to secure a fan to the angled bracket.
+!!! info "Direction of Air Flow"
+    Take note of the fan mount direction to ensure proper air flow. Depending on the bracket orientation installed in the case, the fan may be flipped. 
+
+##### Angled Overhang Mount
+![Overhang Angled](../imgs/OverhangAngledMount.jpg)
+![Angled Positions](../imgs/AngledOverhangPositions.jpg)
+The mounting location can be moved left and right as well as up and down. 
+!!! info "Lower Mount Point"
+    When installing in the lowered position, one of the mount points will not be used. 
+
+##### Angled Underhang Mount
+![Underhang Angled](../imgs/UnderhangAngledMount.jpg)
+![Angled Positions](../imgs/AngledUnderhangPositions.jpg)
+The angled fan bracket can also be under mounted. This can be useful depending on wire clearances with different HBA cards.
+
+##### Mount Extension
+![Angled Extension](../imgs/AngledExtension.jpg)
+The included mount extensions can be used to extend the bracket out for extra coverage on the furthest PCIe card. Use the extended screws for this configuration.
+
+#### Horizontal Fan Bracket
+![Horizontal Bracket](../imgs/HorizontalFanBracket.jpg)
+Use 4 of the mounting holes to secure a fan to the horizontal bracket.
+
+##### Horizontal Overhang Mount
+![Overhang Horizontal](../imgs/OverhangHorizontalMount.jpg)
+![Horizontal Positions](../imgs/HorizontalOverhangPositions.jpg)
+The mounting location can be moved left and right as well as up and down. 
+!!! info "Left or Right Mount Points"
+    When installing in the shifted left or right position, one of the mount points will not be used.
 
 ## Powering Fans
 <div align="center" markdown="1">
@@ -38,12 +101,11 @@ Each 8-Pin PCIe connector powers a specific set of hardware. If there is a set o
 ### 8-Pin PCIe IN 1
 - Fan wall 1
 
-
 ### 8-Pin PCIe IN 3
 - Fan wall 2
 
 ### 8-Pin PCIe IN 4
-- Fan wall 3**
+- Fan wall 3
 
 ## Controlling Fans
 Visit the [Powerboard Connections](../connections.md) page for more information on how the fans are controlled. 

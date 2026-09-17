@@ -3,7 +3,7 @@
 
 ![MOBO Mounts](imgs/MOBOMounts.jpg)
 
-The Hako-Core supports anything from a Mini-ITX up to an E-ATX.
+The Hako-Core supports motherboards from Mini-ITX up to SSI-EEB. See the [Specifications](specifications.md) page for the full list of supported form factors.
 ### Hako-Core Mini With E-ATX
 
 ![Mini E-ATX](imgs/MiniE-ATX.png)

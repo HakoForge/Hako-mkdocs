@@ -14,8 +14,6 @@ The Hako-Core chassis lid is designed for quick removal while maintaining struct
 ## Removal Procedure
 
 ### Removing the Front Lid
-!!! warning "Hako-Core Mini"
-    The Hako-Core Mini only has one lid and will **slide towards the back.**
 
 ![Front Lid Removal Process](../imgs/FrontLid.jpg)
 
@@ -30,3 +28,7 @@ The Hako-Core chassis lid is designed for quick removal while maintaining struct
 1. Locate the lid screws on the left and right side of the chassis and use a #2 Phillips head screwdriver to remove the screws.
 2. Locate the thumb screw on the back of the chassis and use a #2 Phillips head screwdriver to remove the screw.
 4. Lift and remove the lid.
+
+### Hako-Core Mini
+
+The Hako-Core Mini has only one lid, which **slides towards the back** to remove. It does not have a separate rear lid.

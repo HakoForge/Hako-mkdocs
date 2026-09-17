@@ -75,7 +75,9 @@ Used for the PCBs in the 3rd and 4th rows from the front of the chasis
     - Use color coding for easy identification
 
 ![Cable Routing Hako-Core](../imgs/cableRouting.png)
-![Cable Routing Hako-Core Mini](../imgs/cableRouting.png)
+
+!!! note "Hako-Core Mini"
+    Cable routing on the Hako-Core Mini is the same, just with one fewer row of backplanes (and correspondingly shorter cable runs).
 
 ### Step 1: Route Harnesses
 

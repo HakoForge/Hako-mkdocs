@@ -27,8 +27,12 @@ The Hako-Core Server Chassis consists of 10 main components that assemble togeth
 
 </div>
 
-!!! note "Hako-Core Mini"
-    The Hako-Core Mini does **not** have dual lids or a rear fan Bracket
+### Hako-Core Mini
+
+The Hako-Core Mini uses the same components as the Hako-Core, with these differences:
+
+- It has a **single lid** instead of separate front and rear lids.
+- It does **not** have a 3rd row fan bracket.
 
 ### 3D Printed Components
 

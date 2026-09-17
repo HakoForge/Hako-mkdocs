@@ -1,10 +1,15 @@
 # Hako-Core 4U Server Chassis
 
-Welcome to the official documentation for the Hako-Core Server Chassis. This comprehensive guide will help you understand, install, and maintain your Hako-Core system.
+Thank you for supporting HakoForge! This is the official documentation for the Hako-Core Server Chassis — it will help you understand, install, and maintain your Hako-Core system. Please read it carefully before use.
+
+This manual covers both the **Hako-Core** and the **Hako-Core Mini**, as the two share nearly all of their components and procedures. The Mini is a shorter version of the Core with one fewer row of backplanes and one fewer fan wall. Anywhere the Mini differs, it is called out under a **Hako-Core Mini** heading or note.
 
 ## Quick Start
 
-Check the Quick Start guide that came packaged with your system. Head over to the [Get Started](welcome.md) page to get help with the rest of your set up.
+Check the Quick Start guide that came packaged with your system, then work through the sections in the left navigation for the rest of your setup.
+
+- If the Hako-Core was configured at purchase, it will come **pre-assembled** and ready for use.
+- If backplane kits were purchased for an existing Hako-Core, refer to the [PCB Installation](hardware/pcb-installation.md) page.
 
 ## What is the Hako-Core
 <div class="video-center">
@@ -12,8 +17,8 @@ Check the Quick Start guide that came packaged with your system. Head over to th
 </div>
 The Hako-Core 4U Server Chassis is designed for high-density storage applications with support for:
 
-- **Multiple motherboard formats**: Mini-ITX, Micro ATX, ATX, EATX
-- **Flexible storage options**: SSDs, HDDs, and mixed configurations with up to 48 hard drives.
+- **Multiple motherboard formats**: Mini-ITX up to E-ATX, plus XL-ATX, FlexATX, Mini-DTX, SSI-CEB, and SSI-EEB
+- **Flexible storage options**: mix-and-match HDD, SSD, U.2, and hybrid backplanes — see [Specifications](specifications.md#drive-capacity) for capacity
 - **Cooling**: Support for up to 9 fans total along with accessory PCIe dedicated fans
 - **Modular design**: Expandable with additional cages and PCBs
 
