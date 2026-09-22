@@ -47,7 +47,6 @@ nav:
       - Safety & Cautions: hf-l1/cautions.md
       - Power: hf-l1/power.md
       - Chassis Accessories: hf-l1/accessories.md
-      - CRPS PSU Adapter: hf-l1/psu-adapter.md
       - Hako Foundry: hf-l1/foundry.md
     - Hardware Guide:
       - Exploded View: hf-l1/hardware/exploded-view.md
@@ -56,6 +55,9 @@ nav:
       - Fan Installation: hf-l1/hardware/fan-installation.md
       - Cage Installation: hf-l1/hardware/cage-installation.md
       - Management Arm Installation: hf-l1/hardware/cable-management-arm-install.md
+      - CRPS PSU Adapter: hf-l1/psu-adapter.md
+    - Backplanes:
+      - HF-L1 Backplane: hf-l1/backplanes/hf-l1-backplane.md
     - Support:
       - Warranty: hf-l1/warranty.md
 

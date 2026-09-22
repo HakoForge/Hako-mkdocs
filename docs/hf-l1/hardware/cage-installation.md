@@ -13,4 +13,4 @@ The HF-L1 comes preinstalled with 2 drive cages that are made specifically for t
 4. Screw in the thumbscrews to lock the cage in place.
 
 !!! info "Cage Orientation"
-    The 2 drive cages are different lengths, one long and one shorter. They only fit into the chassis in a specific orientation. The tabs on the cage that hold the thumbscrews will face towards the front of the chassis.
+    The 2 drive cages are different lengths, one long and one shorter. They only fit into the chassis in a specific orientation. The tabs on the cage that hold the thumbscrews will face towards the front of the chassis. When installing the cages check that the tabs align with the screw holes.

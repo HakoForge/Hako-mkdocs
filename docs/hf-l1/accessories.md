@@ -9,15 +9,17 @@
     Take note of the ***L*** and ***R*** stickers on the rails and mount them on the correct side.
 !!! warning "Inner Server Rail Mounting Holes"
     When installing the inner server rails, use the screw holes shown in the diagram. Not all holes in the server rail are used. 
+!!! info "Front of the Case"
+    The front of the case is the end with the fan faceplate and drive cages. Orient the rails so their front end faces this side so the chassis slides into the rack correctly.
 
 ## Server Rack Ears
 
 ![Rack Ear](imgs/RackEar.jpg)
 
-These metal flanges are used to secure the Hako-Core to a server rack's frame.
+These rack ears are used to secure the Hako-Core to a server rack's frame.
 
 !!! info "Left and Right Server Rack Ears"
-    Notice the rack frame holes are along the bottom part of the rack ears. Use this feature to distinguish between left and right rack ears.
+    Rack ears will be labeled with a left and right sticker to distinguish.
 
 !!! warning "Supporting The Chassis In A Server Rack"
     The rack ears alone are **not enough** to hold the chassis in a server rack. Server rails must be used. Rack ears are only to prevent the chassis from sliding out of the rack.

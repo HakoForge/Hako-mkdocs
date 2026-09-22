@@ -17,9 +17,9 @@ The HakoForge-Lite 1 is a 4U server chassis designed as a streamlined, pre-assem
 
 - **Pre-assembled**: Ships fully assembled and cable managed, ready for use out of the box
 - **PATA-powered backplane**: 1 preinstalled backplane powered directly from the PSU via 4 PATA power cables (no power board required)
-- **Drive capacity**: Supports up to 16 drives
+- **Drive capacity**: 14 &times; 3.5" + 2 &times; 2.5", or 16 &times; 2.5"
 - **Multiple motherboard formats**: CEB, ATX, Micro ATX, and Mini-ITX
-- **Cooling**: 3 Preinstalled fans up with up to a total of 9.
+- **Cooling**: 3 preinstalled front fans, expandable to 9 total (3 front, 3 middle, and 3 auxiliary)
 
 ## Getting Help
 

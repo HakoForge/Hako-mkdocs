@@ -4,7 +4,7 @@ Here is an exploded view of the chassis.
 
 <div align="center" markdown="1">
 
-![HF-L1 exploded view showing all 14 parts](../imgs/ExplodedView.webp){: style="max-width: 700px; width: 100%;"}
+![HF-L1 exploded view showing all 13 parts](../imgs/ExplodedView.webp){: style="max-width: 700px; width: 100%;"}
 
 </div>
 
@@ -32,8 +32,8 @@ Here is an exploded view of the chassis.
 | **9** | Fan |
 | **10** | Chassis Feet |
 | **11** | Cage Bracket |
-| **13** | Front Bracket |
-| **14** | Faceplate |
+| **12** | Front Bracket |
+| **13** | Faceplate |
 
 </div>
 </div>
