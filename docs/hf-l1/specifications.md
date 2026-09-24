@@ -16,7 +16,7 @@
 | **GPU Clearance** | Length: ~320mm, Height: ~154mm |
 | **CPU Cooler Clearance** | ~150mm &plusmn;5mm, depending on motherboard |
 | **Form Factor** | 4U |
-| **Weight** | 25 lbs (default configuration) |
+| **Weight** | 20 lbs (default configuration) |
 | **Materials** | Powder coated steel |
 | **Dimensions** | 20.25" x 17.25" x 6.875" |
 | **Backplane** | 1 preinstalled backplane |
