@@ -1,0 +1,17 @@
+On the Lite page
+
+1. fans - 3 pre installed up to 6 with 3 additional auxiliary (Need to make the distinction that its 3 front fans, 3 middle fans, and 3 auxiliary fans
+    1a. Grammer in the welcome page 'Cooling: 3 Preinstalled fans up with up to a total of 9." should be 'Cooling: 3 Preinstalled fans up with up to a total of 9.". Again this should reflect          that its 3 preinstalled with 3 more middle fans and 3 auxiliary fans.
+2. Specifications page PSU Typo should be HX1000i
+3. Specifications page - Lite Weight needs confirming.
+4. Rail - Change pic to Lite cage with rail
+5. Chassis accessories page for the server rails add in the note distinguish the front of the case so users know which side to put the rails on.
+6. Rack ears - change the note to something better to distinguish L and R. Right now the wording is weird change it so that users can distinguish the rack ears based on the screw hole that secures the rack ear to the rack.
+7. Exploded View - change 13 > 12 and 14 > 13 in the table
+8. Wire routing - change 'dotted blue line' text to blue color
+9. Any area that references the front fans these can only be 25mm only
+    9a. Middle - no width limit
+10. Cange any area that references the Angled fan size - should be 120mm / 92mm / 80mm (Check this for all pages)
+11. Add note for cage installation about the orientation of the 2 cages since the 2 are diff sizes.
+12. Anywhere that references drive capacities for lite change it to be more specific 14 x 3.5" + 2 x 2.5" OR 16 x 2.5"
+13. Create backplane page like the core (Place holder the pics untill i get them) (use the core as the template i will fill the information in after)

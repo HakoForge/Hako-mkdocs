@@ -1,7 +1,7 @@
 # Chassis Accessories
 ## Server Rails
 
-![Server Rail HF-L1](imgs/ServerRailMini.jpg)
+![Server Rail HF-L1](imgs/Rail.webp)
 
 
 
