@@ -27,7 +27,19 @@ For the fans themselves, we recommend the [Noctua NF-F12 industrialPPC-3000 PWM]
 
 ### Fan Wall 1
 ![Front Fan Wall](../imgs/FrontFanWallMount.jpg)
-Remove the magnetic faceplate and install the fans using the mounting holes.
+
+1. Remove the magnetic faceplate
+2. Attach the wire fan guard using the 4 mounting holes
+3. Attach the fan to the same 4 mounting holes as the fan guard.
+4. Tighten the screws.
+
+!!! danger "Do not over tighten"
+    Do not overtighten the screws as to not strip them. 
+
+<div class="video-center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h6zgInZeWG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ![Air Blocks](../imgs/AirBlocks.jpg)
 !!! info "Air Block Clearance"
     The 3D printed air blocks may be too tight for fan installation. Unscrew these and reinstall them **along** with the fan at the same time to get them to fit together. 
