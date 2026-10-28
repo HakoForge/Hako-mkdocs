@@ -1,37 +1,40 @@
 # Powerboard Connections
-## Fan Control Jumper
+## Fan Control Switch
+
+The powerboard has a fan control **switch** that selects whether all fans are controlled by the **motherboard** or by the **powerboard**. Set the switch to the position you want:
+
 ### MOBO FAN CTL Position
 <div markdown="1" style="display: grid; grid-template-columns: auto auto; align-items: start; column-gap: 20px; row-gap: 12px;">
 <div markdown="1">
 
-![MOBO CTL Jumper](imgs/JumperMOBOCTL.jpg){: style="width: 400px;"}
+![Powerboard motherboard fan control](imgs/PwrBoardMoboFan.webp){: style="width: 400px;"}
 
 </div>
 <div markdown="1">
 
-![PWM_IN Connector](imgs/PWM_INConnector.jpg){: style="width: 400px;"}
+![Powerboard motherboard fan control](imgs/PwrBoardMoboFan2.webp){: style="width: 400px;"}
 
 </div>
 <div markdown="1" style="grid-column: 1 / -1;">
 
-With the jumper in this position, all fan headers will be controlled by the ***PWM_IN*** connector. This can be connected to a header on your motherboard or a dedicated fan controller. The USB connection is not required.
+With the switch in this position, all fan headers will be controlled by the ***PWM_IN*** connector. This can be connected to a header on your motherboard or a dedicated fan controller. The USB connection is not required.
 </div>
 </div>
 ### POWERBOARD FAN CTL Position
 <div markdown="1" style="display: grid; grid-template-columns: auto auto; align-items: start; column-gap: 20px; row-gap: 12px;">
 <div markdown="1">
 
-![MOBO CTL Jumper](imgs/JumperPBCTL.jpg){: style="width: 400px;"}
+![Powerboard fan control](imgs/PwrBoardFan.webp){: style="width: 400px;"}
 
 </div>
 <div markdown="1">
 
-![MOBO CTL Jumper](imgs/USBConnector.jpg){: style="width: 400px;"}
+![Powerboard fan control](imgs/PwrBoardFan2.webp){: style="width: 400px;"}
 
 </div>
 <div markdown="1" style="grid-column: 1 / -1;">
 
-With the jumper in this position, all fan headers will be controlled by the powerboard. A USB connection is required. With the [Hako Foundry](foundry.md) software, you're able to control each fan wall individually. 
+With the switch in this position, all fan headers will be controlled by the powerboard. A USB connection is required. With the [Hako Foundry](foundry.md) software, you're able to control each fan wall individually. 
 </div>
 </div>
 
@@ -77,4 +80,4 @@ The Powerboard comes with a Mini-B USB to USB 2.0 Header that will connect to a 
 The Powerboard comes with a PWM_IN to USB 2.0 Header that will connect to a fan header on your motherboard. The connected motherboard fan header will control all fans connected to the powerboard. If fan control is not desired, leaving this unplugged will have the fans run at full speed.
 
 !!! note "PWM_IN and USB connected"
-    Having both the ***PWM_IN*** and ***USB*** wires connected to the motherboard is OK. This configuration will allow you to switch between fan controls with the jumper.
+    Having both the ***PWM_IN*** and ***USB*** wires connected to the motherboard is OK. This configuration lets you change fan control between the motherboard and powerboard just by moving the switch.
