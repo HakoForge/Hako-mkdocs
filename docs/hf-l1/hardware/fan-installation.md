@@ -32,12 +32,14 @@ For the fans themselves, we recommend the ARCTIC P12 Pro PST
 ### Front Fan Wall
 
 1. Disconnect the fan header cables that come preinstalled with the case.
-2. Unscrew the face plate from the chassis.
-3. Unscrew the fan your replacing from the face plate
+2. Unscrew the face plate from the chassis (Red Screws image below).
+3. Unscrew the fan your replacing from the face plate(Yellow Screws image below)
 
 Follow in reverse order to reassemble. 
 
 It's advised to route the fan header cables underneath the PCB.
+
+![HF-L1 front panel](../imgs/Front-Panel.webp){: style="max-width: 700px; width: 100%;"}
 
 ### Auxiliary Fans
 
