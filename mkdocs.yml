@@ -133,7 +133,7 @@ extra_css:
 extra:
   social:
     - icon: fontawesome/solid/envelope
-      link: mailto:help@hakoforge.com
+      link: mailto:contact@hakoforge.com
     - icon: fontawesome/brands/github
       link: https://github.com/hakoforge
   version:

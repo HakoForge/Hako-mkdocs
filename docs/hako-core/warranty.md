@@ -2,7 +2,7 @@
 
 All HakoForge products come with a 90-day limited warranty. <br/>
 
-Contact us at help@hakoforge.com for warranty support.<br/>
+Contact us at contact@hakoforge.com for warranty support.<br/>
 
 This warranty is limited to the original purchaser and warrants that the product is free from manufacturing defects for the specified time period.
 
@@ -20,7 +20,7 @@ HakoForge is not responsible for any data loss that may occur.
 
 ### Contact Information
 
-**Warranty Claims**: [help@hakoforge.com](mailto:help@hakoforge.com)  
+**Warranty Claims**: [contact@hakoforge.com](mailto:contact@hakoforge.com)  
 **Response Time**: 24-48 hours typical  
 **Business Hours**: Monday-Friday, 9 AM - 5 PM PST  
 

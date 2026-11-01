@@ -26,7 +26,7 @@ The Hako-Core 4U Server Chassis is designed for high-density storage application
 
 For questions, support, or warranty issues:
 
-- **Email**: [help@hakoforge.com](mailto:help@hakoforge.com)
+- **Email**: [contact@hakoforge.com](mailto:contact@hakoforge.com)
 - **GitHub**: All documentation versions available on our [GitHub repository](https://github.com/hakoforge)
 - **Warranty**: 90-day limited warranty included
 

@@ -2,7 +2,7 @@
 
 All HakoForge products come with a 90-day limited warranty. <br/>
 
-Contact us at help@hakoforge.com for warranty support.<br/>
+Contact us at contact@hakoforge.com for warranty support.<br/>
 
 This warranty is limited to the original purchaser and warrants that the product is free from manufacturing defects for the specified time period.
 

@@ -62,4 +62,4 @@ If you encounter any issues during installation:
 
 1. Immediately disconnect power if you smell burning or see sparks
 2. Stop work if you're unsure about any connection
-3. Contact support at [help@hakoforge.com](mailto:help@hakoforge.com)
+3. Contact support at [contact@hakoforge.com](mailto:contact@hakoforge.com)

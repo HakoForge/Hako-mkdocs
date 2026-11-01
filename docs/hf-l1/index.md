@@ -25,7 +25,7 @@ The HakoForge-Lite 1 is a 4U server chassis designed as a streamlined, pre-assem
 
 For questions, support, or warranty issues:
 
-- **Email**: [help@hakoforge.com](mailto:help@hakoforge.com)
+- **Email**: [contact@hakoforge.com](mailto:contact@hakoforge.com)
 - **GitHub**: All documentation versions available on our [GitHub repository](https://github.com/hakoforge)
 
 ---
