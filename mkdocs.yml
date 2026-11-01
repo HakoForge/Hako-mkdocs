@@ -39,6 +39,7 @@ nav:
       - 4-U.2 Backplane: hako-core/backplanes/4-u.2-backplane.md
       - Mixed 4-Bay Backplane: hako-core/backplanes/mixed-4-bay-backplane.md
     - Support:
+      - "Troubleshooting: Fans": hako-core/troubleshooting-fans.md
       - Warranty: hako-core/warranty.md
   - HakoForge-Lite 1:
     - Welcome: hf-l1/index.md
@@ -60,6 +61,7 @@ nav:
     - Backplanes:
       - HF-L1 Backplane: hf-l1/backplanes/hf-l1-backplane.md
     - Support:
+      - "Troubleshooting: Fans": hako-core/troubleshooting-fans.md
       - Warranty: hf-l1/warranty.md
 
 # Hidden for now — the How To Guides section is kept in docs/guides/ but excluded

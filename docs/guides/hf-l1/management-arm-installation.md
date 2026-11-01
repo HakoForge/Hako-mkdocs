@@ -36,7 +36,7 @@ Parts
 ![Rack-Part](../../hf-l1/imgs/Cable_Mang_Arm_Part1.jpg)
 
 !!! info "Stability"
-    Optionally, if you want more stablilty a M5 cage nut can be installed directly below the bottom most rail threaded hole.
+    Optionally, if you want more stability a M5 cage nut can be installed directly below the bottom most rail threaded hole.
 
 1. Align the top screw hole on the bracket to the bottom most hole on the rail.
 2. Using the short screws and a washer, attach the bracket to the rail as shown on the image..

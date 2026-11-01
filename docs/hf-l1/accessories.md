@@ -16,7 +16,7 @@
 
 ![Rack Ear](imgs/RackEar.jpg)
 
-These rack ears are used to secure the Hako-Core to a server rack's frame.
+These rack ears are used to secure the HF-L1 to a server rack's frame.
 
 !!! info "Left and Right Server Rack Ears"
     Rack ears will be labeled with a left and right sticker to distinguish.

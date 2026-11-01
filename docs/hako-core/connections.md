@@ -77,7 +77,7 @@ The Powerboard comes with a Mini-B USB to USB 2.0 Header that will connect to a 
 
 ## PWM_IN to Fan Header
 
-The Powerboard comes with a PWM_IN to USB 2.0 Header that will connect to a fan header on your motherboard. The connected motherboard fan header will control all fans connected to the powerboard. If fan control is not desired, leaving this unplugged will have the fans run at full speed.
+The Powerboard comes with a PWM_IN to Fan Header cable that will connect to a fan header on your motherboard. The connected motherboard fan header will control all fans connected to the powerboard. If fan control is not desired, leaving this unplugged will have the fans run at full speed.
 
 !!! note "PWM_IN and USB connected"
     Having both the ***PWM_IN*** and ***USB*** wires connected to the motherboard is OK. This configuration lets you change fan control between the motherboard and powerboard just by moving the switch.

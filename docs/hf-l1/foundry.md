@@ -11,4 +11,4 @@ The Hako Foundry is the companion Docker app that is available on our [GitHub](h
 Check the README there for a full explanation.
 
 !!! note "Optional Power Board"
-    A [power board](https://hakoforge.com/collections/pcbs/products/hakoforge-power-board) must be purchased separately for PWM fan control and usage of HakoFoundry.
+    The HF-L1 does not need a power board. A [power board](https://hakoforge.com/collections/pcbs/products/hakoforge-power-board) is optional, and is only required if you want PWM fan control and HakoFoundry.

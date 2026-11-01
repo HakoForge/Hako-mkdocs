@@ -24,7 +24,7 @@ The HF-L1 ships with 1 preinstalled backplane that provides power and data conne
 
 | Parameter | Specification |
 |-----------|---------------|
-| **Drive Connectors** | 4 x SATA |
+| **Drive Connectors** | 16 (14 &times; 3.5" + 2 &times; 2.5") |
 | **Drive Support** | 14 &times; 3.5" + 2 &times; 2.5", or 16 &times; 2.5" |
 | **SAS Output** | 4 SAS Out Connector |
 | **Input Power** | 4 &times; PATA from PSU |
