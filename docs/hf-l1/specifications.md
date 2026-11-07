@@ -26,3 +26,19 @@
 | **Fans** | 3 included fans, up to 9 |
 
 </div>
+
+### Fan Compatibility
+
+<div class="table-center" markdown="1">
+
+| Position | Fan Size | Max Thickness |
+|----------|----------|---------------|
+| **Front wall** (&times;3) | 120mm | 25mm |
+| **Middle row** (&times;3) | 120mm | 25mm, or a radiator |
+| **Rear exhaust** (&times;1) | 80mm or 92mm | &mdash; |
+| **Angled aux bracket** | 80mm, 92mm, or 120mm | &mdash; |
+| **Horizontal aux bracket** | 120mm | &mdash; |
+
+</div>
+
+See [Fan Installation](hardware/fan-installation.md) and [AIO Cooler](hardware/aio-installation.md) for details.

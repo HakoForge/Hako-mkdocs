@@ -7,12 +7,12 @@ Each PCB in the Hako-Core system provides power regulation and data connectivity
 
 ## PCB Types
 
-The Hako-Core and Hako-Core Mini supports several PCB configurations:
-###Standard Size Backplanes
+The Hako-Core and Hako-Core Mini support several PCB configurations:
+### Standard Size Backplanes
 - **4-HDD Backplane**: 3.5" drive support  
 - **12-SSD Backplane**: 2.5" drive support
 - **4-U.2 Backplane**: 2.5" drive support
-###Small Size Backplanes
+### Small Size Backplanes
 - **Mixed 4-Bay Backplane**: Combined 2.5" and 3.5" support
 
 !!! danger "Safety First"
@@ -20,7 +20,7 @@ The Hako-Core and Hako-Core Mini supports several PCB configurations:
 
 ## Removal Procedure
 
-The removal procdure is the same for all 4 variants of backplanes sold by HakoForge
+The removal procedure is the same for all 4 variants of backplanes sold by HakoForge
 
 Power off the machine.
 
@@ -46,7 +46,7 @@ Each PCB has designated mounting locations within the chassis:
 Power off the machine.
 
 1. Locate standoffs in chassis for your PCB position
-2. Connect the data and power connecter to the PCB
+2. Connect the data and power connector to the PCB
 3. Align PCB over the mounting standoffs 
 
     (Note: if you are replacing an existing PCB and the fans and neighboring PCBs are already installed connect the power and data cables before screwing the PCB into the standoffs.(Shown in video below))

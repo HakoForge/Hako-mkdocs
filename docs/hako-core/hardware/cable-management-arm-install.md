@@ -5,7 +5,7 @@ The Hakoforge line of cases support the installation of a Cable Management arm.
 To use the management arm, you will need to have a rack that is roughly 6" inches deeper than the case you are using.
 
 
-For example, the Core 34", you will need a rack that is deeper than 40" inches or the use of an rack depth extension.
+For example, the Core is 34" deep, so you will need a rack that is deeper than 40 inches or a rack depth extension.
 
 
 ### Part Number
@@ -52,7 +52,7 @@ Parts
 ### **Installing the Arm**
 **Arm** - this part will be attached to the 2 brackets. Case Bracket and Rack Bracket.
 
-1. Align the side that says "Chassis side" with the case, and pulled on both alignment pins on the arm to retract them and allow for them to go into the bracket.
+1. Align the side that says "Chassis side" with the case, and pull on both alignment pins on the arm to retract them and allow for them to go into the bracket.
 2. Do the same on the opposite end of the arm.
 
 

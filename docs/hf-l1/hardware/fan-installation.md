@@ -23,7 +23,10 @@ Auxiliary fans can be mounted using one of our fan brackets:
 For the fans themselves, we recommend the ARCTIC P12 Pro PST
 
 !!! note "Optional Power Board"
-    A power board can be purchased separately for PWM fan control and usage of [HakoFoundry](../foundry.md).
+    A power board can be purchased separately for PWM fan control and usage of [HakoFoundry](../foundry.md). See [Power Board Connections](powerboard-connections.md) for wiring.
+
+!!! info "Fan Cable Harnesses"
+    Fans connect through fan cable harnesses — **one per fan wall**. The HF-L1 uses one for the front wall and one for the middle wall, plus one more if you add the three auxiliary fans.
 
 ## Installation Process
 !!! danger "Safety First"
@@ -33,7 +36,7 @@ For the fans themselves, we recommend the ARCTIC P12 Pro PST
 
 1. Disconnect the fan header cables that come preinstalled with the case.
 2. Unscrew the face plate from the chassis (Red Screws image below).
-3. Unscrew the fan your replacing from the face plate(Yellow Screws image below)
+3. Unscrew the fan you're replacing from the face plate(Yellow Screws image below)
 
 Follow in reverse order to reassemble. 
 
@@ -41,10 +44,21 @@ It's advised to route the fan header cables underneath the PCB.
 
 ![HF-L1 front panel](../imgs/Front-Panel.webp){: style="max-width: 700px; width: 100%;"}
 
+### Middle Fan Wall
+
+Install the middle-row fans using the mounting holes — the process is the same as the front wall.
+
+![Middle fan wall](../imgs/MiddleFanWall.jpg)
+
+!!! tip "Secure the Fan Bottoms"
+    Only the tops of the middle-row fans are held by the bracket. Zip-tie the bottoms of the fans together to add stiffness.
+
+A radiator can also be mounted in this row — see the [AIO Cooler](aio-installation.md) page.
+
 ### Auxiliary Fans
 
 1. Attach your fan to the bracket.
-2. Screw the bracket into the desired mounting holes with provided hardware. (There are multiple to accomodate for larger PCIe cards)
+2. Screw the bracket into the desired mounting holes with provided hardware. (There are multiple to accommodate for larger PCIe cards)
 3. Connect fan headers.
 
 Auxiliary fans mount to one of two brackets, sold separately.

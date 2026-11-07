@@ -55,6 +55,7 @@ nav:
       - Wire Routing: hf-l1/hardware/wire-routing.md
       - Fan Installation: hf-l1/hardware/fan-installation.md
       - AIO Cooler: hf-l1/hardware/aio-installation.md
+      - Power Board Connections: hf-l1/hardware/powerboard-connections.md
       - Cage Installation: hf-l1/hardware/cage-installation.md
       - Management Arm Installation: hf-l1/hardware/cable-management-arm-install.md
       - CRPS PSU Adapter: hf-l1/psu-adapter.md

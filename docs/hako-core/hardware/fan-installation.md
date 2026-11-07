@@ -45,7 +45,7 @@ For the fans themselves, we recommend the [Noctua NF-F12 industrialPPC-3000 PWM]
     The 3D printed air blocks may be too tight for fan installation. Unscrew these and reinstall them **along** with the fan at the same time to get them to fit together. 
 #### Fan Headers
 ![Front Fan Wall Headers](../imgs/FrontFanWallWires.jpg)
-The fan headers for ***Fan Wall 1*** are located above the the left fan and connect to the powerboard. Plug the fans in here and tuck the wires in between the fans. 
+The fan headers for ***Fan Wall 1*** are located above the left fan and connect to the powerboard. Plug the fans in here and tuck the wires in between the fans. 
 
 ### Fan Wall 2/3
 ![Middle Fan Wall](../imgs/MiddleFanWall.jpg)

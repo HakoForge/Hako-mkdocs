@@ -11,6 +11,8 @@
     When installing the inner server rails, use the screw holes shown in the diagram. Not all holes in the server rail are used. 
 !!! info "Front of the Case"
     The front of the case is the end with the fan faceplate and drive cages. Orient the rails so their front end faces this side so the chassis slides into the rack correctly.
+!!! info "Rail Screw Thread"
+    The server rail screws use an **M5-0.8** thread. Start each screw carefully to avoid cross-threading.
 
 ## Server Rack Ears
 

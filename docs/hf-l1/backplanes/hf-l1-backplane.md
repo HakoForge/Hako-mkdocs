@@ -50,6 +50,9 @@ The HF-L1 ships with 1 preinstalled backplane that provides power and data conne
 
 For Drive Cage Installation see [Cage Installation](../hardware/cage-installation.md).
 
+!!! info "SAS Cables"
+    Pre-assembled chassis ship with the SAS cable preinstalled. It uses SFF-8643 (Mini-SAS HD) connectors and is sold separately in [40cm, 60cm, and 80cm lengths](https://hakoforge.com/collections/cables/products/sas-cable-8643-8643).
+
 ## Drive Installation
 
 <!-- TODO: confirm drive installation steps -->

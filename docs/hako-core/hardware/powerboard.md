@@ -40,6 +40,9 @@ The powerboard provides clean, regulated power distribution for all storage devi
 
 ### Input Connections
 Each 8-Pin PCIe connector powers a specific set of hardware. If there is a set of hardware that is not being used in your configuration, connection is optional. 
+
+!!! info "Connector Labels"
+    The **IN 1–4** labels are for ease of use; they map to the board's silkscreened **J** connectors shown on the map above — **IN 1 = J4, IN 2 = J3, IN 3 = J2, IN 4 = J1** (the J numbers run opposite to the IN numbers).
 ### 8-Pin PCIe IN 1
 - Row 1* Backplane 4
 - Row 1* Backplane 3
@@ -63,6 +66,6 @@ Each 8-Pin PCIe connector powers a specific set of hardware. If there is a set o
     \* ***Row 1*** and ***Row 2*** connections on the second powerboard are connected to ***Row 3*** and ***Row 4*** <br> 
     ** The exposed ***Fan Wall 3*** headers can be used for other fans if there is no fan wall 3 in your configuration
 
-##Fan Control
+## Fan Control
 
 Visit the [Connections](../connections.md) page to see how to configure the powerboard fan control features.

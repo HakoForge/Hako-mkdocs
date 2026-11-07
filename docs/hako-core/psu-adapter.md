@@ -45,10 +45,10 @@ This PSU Adapter replaces the stock ATX power supply mount on your HakoForge cha
     It is always recommended to power down the system and disconnect it before working inside the case.
 
 
-Mountint hardware is all provided with kit.
+Mounting hardware is all provided with kit.
 
 1. Remove the existing ATX power supply mount from the chassis.
-2. Attach the CRPS enclouse to the Adapter Bracket
+2. Attach the CRPS enclosure to the Adapter Bracket
 3. Attach the enclosure stand onto the enclosure
 4. Secure the adapter bracket to the rear of the chassis.
-5. Side the CRPS PSU module into the enclosure and secure it inplace.
+5. Slide the CRPS PSU module into the enclosure and secure it in place.

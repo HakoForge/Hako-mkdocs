@@ -45,6 +45,10 @@ With the switch in this position, all fan headers will be controlled by the powe
 
 </div>
 Each 8-Pin PCIe connector powers a specific set of hardware. If there is a set of hardware that is not being used in your configuration, connection is optional. 
+
+!!! info "Connector Labels"
+    The **IN 1–4** labels are for ease of use; they map to the board's silkscreened **J** connectors shown on the diagram above — **IN 1 = J4, IN 2 = J3, IN 3 = J2, IN 4 = J1** (the J numbers run opposite to the IN numbers).
+
 ### 8-Pin PCIe IN 1
 - Row 1* Backplane 4
 - Row 1* Backplane 3
