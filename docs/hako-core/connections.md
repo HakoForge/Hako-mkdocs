@@ -38,6 +38,9 @@ With the switch in this position, all fan headers will be controlled by the powe
 </div>
 </div>
 
+!!! info "Fan Wall Control & RPM"
+    Each fan wall is controlled as a group — all fans on a wall run at the same speed, not individually. Like any fan splitter, only one fan per wall reports RPM, so a failed fan in another position on that wall will not show up in HakoFoundry. Check the fans physically if you suspect a failure.
+
 ## 8-pin PCIe Connectors
 <div align="center" markdown="1">
 

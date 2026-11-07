@@ -13,6 +13,9 @@ The power board has a fan control **switch** that selects whether the fans are c
 - **MOBO position** — all fan headers are controlled by the **PWM_IN** connector. Connect it to a motherboard fan header or a dedicated fan controller. The USB connection is not required.
 - **Power Board position** — all fan headers are controlled by the power board. A USB connection is required. With [HakoFoundry](../foundry.md) you can then control each fan wall individually.
 
+!!! info "Fan Wall Control & RPM"
+    Each fan wall is controlled as a group — all fans on a wall run at the same speed, not individually. Like any fan splitter, only one fan per wall reports RPM, so a failed fan in another position on that wall will not show up in HakoFoundry. Check the fans physically if you suspect a failure.
+
 ## USB 2.0 Header
 
 The power board connects to a **free internal USB 2.0 (9-pin) header** on your motherboard using the included Mini-B USB cable. This connection is required for individual fan wall control and drive power monitoring in HakoFoundry. If those features are not used, the USB connection is optional.
