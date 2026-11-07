@@ -382,3 +382,141 @@
     opacity: .7;
     cursor: default;
   }
+
+  /* ===================================================================
+     VISUAL REFRESH v1 — warmer palette + clearer nav section headings
+     =================================================================== */
+
+  /* ---- Left nav: section/group headings stand apart from entries ---- */
+  .md-nav--primary label.md-nav__link {
+    color: var(--hf-orange);
+    text-transform: uppercase;
+    font-size: 0.66rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    margin-top: 0.5rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid currentColor;
+  }
+  .md-nav--primary a.md-nav__link {
+    font-size: 0.72rem;
+  }
+
+  /* ---- Dark (slate) scheme: warm charcoal instead of blue-grey ---- */
+  [data-md-color-scheme="slate"] {
+    --md-hue: 30;
+    --md-default-bg-color: #1c1b1a;
+    --md-default-bg-color--light: #232221;
+    --md-default-bg-color--lighter: #2b2a28;
+    --md-default-bg-color--lightest: #333230;
+    --md-default-fg-color: rgba(255, 255, 255, 0.90);
+    --md-default-fg-color--light: rgba(255, 255, 255, 0.70);
+    --md-default-fg-color--lighter: rgba(255, 255, 255, 0.45);
+    --md-code-bg-color: #262523;
+    --md-typeset-a-color: var(--hf-yellow);
+  }
+  [data-md-color-scheme="slate"] .md-nav--primary label.md-nav__link {
+    color: var(--hf-yellow);
+  }
+
+  /* ---- Light (default) scheme: warm off-white + readable links ---- */
+  [data-md-color-scheme="default"] {
+    --md-default-bg-color: #f7f6f3;
+    --md-typeset-a-color: #c05600;
+  }
+
+  /* ---- Headings: a touch of industrial authority ---- */
+  .md-typeset h1 {
+    font-weight: 800;
+    letter-spacing: 0.01em;
+    color: var(--hf-orange);
+  }
+  .md-typeset h2 {
+    font-weight: 700;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid var(--hf-orange);
+  }
+
+  /* ---- Left nav product/section title + page H1: brand color, not grey ---- */
+  .md-nav--primary .md-nav__title {
+    color: var(--hf-orange) !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    border-bottom: 1px solid currentColor;
+  }
+  [data-md-color-scheme="slate"] .md-nav--primary .md-nav__title {
+    color: var(--hf-yellow) !important;
+  }
+  [data-md-color-scheme="slate"] .md-typeset h1 {
+    color: var(--hf-yellow);
+  }
+
+  /* Desktop "lifted" nav colors the top section title grey — override it */
+  @media screen and (min-width: 76.25em) {
+    [data-md-color-scheme="default"] .md-nav--lifted > .md-nav__list > .md-nav__item > .md-nav__link {
+      color: var(--hf-orange);
+    }
+    [data-md-color-scheme="slate"] .md-nav--lifted > .md-nav__list > .md-nav__item > .md-nav__link {
+      color: var(--hf-yellow);
+    }
+  }
+
+  /* ---- Header: contact email next to the repo link ---- */
+  .md-header__source {
+    width: auto;
+    max-width: none;
+  }
+  .hf-header-source {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    height: 100%;
+  }
+  .hf-header-mail {
+    display: inline-flex;
+    align-items: center;
+    color: var(--hf-yellow);
+    flex-shrink: 0;
+  }
+  .hf-header-mail svg {
+    width: 1.1rem;
+    height: 1.1rem;
+    fill: currentColor;
+  }
+  .hf-header-mail:hover {
+    color: var(--hf-yellow-dark);
+  }
+
+  /* ---- Remove the bottom footer entirely ---- */
+  .md-footer {
+    display: none;
+  }
+
+  /* ---- Header: center + widen the search; palette ends up by the email ---- */
+  @media screen and (min-width: 60em) {
+    .md-header__inner {
+      position: relative;
+    }
+    .md-header__inner .md-search {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 32rem;
+      max-width: 40vw;
+    }
+    /* the visible box floats right at 11.7rem by default — fill & center it */
+    .md-header__inner .md-search .md-search__inner {
+      float: none !important;
+      width: 100% !important;
+    }
+    .md-header__inner .md-search .md-search__form,
+    .md-header__inner .md-search .md-search__input {
+      width: 100%;
+    }
+    /* tighten the gap between the light/dark toggle and the email button */
+    .md-header__source {
+      margin-left: 0.3rem;
+    }
+  }

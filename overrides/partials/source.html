@@ -2,6 +2,7 @@
   Context-aware repo link: point the top-right GitHub link at the repo for
   whichever product section the visitor is currently viewing.
   HF-L1 pages -> HF-L1 repo; everything else -> HakoCore repo.
+  A contact email link is shown just to the left of the repo link.
 -#}
 {% set _url = page.url | default('', true) %}
 {% if _url.startswith('hf-l1/') %}
@@ -11,12 +12,17 @@
   {% set _repo_url = 'https://github.com/HakoForge/HakoCore' %}
   {% set _repo_name = '/HakoForge/HakoCore' %}
 {% endif %}
-<a href="{{ _repo_url }}" title="{{ lang.t('source') }}" class="md-source" data-md-component="source">
-  <div class="md-source__icon md-icon">
-    {% set icon = config.theme.icon.repo or "fontawesome/brands/git-alt" %}
-    {% include ".icons/" ~ icon ~ ".svg" %}
-  </div>
-  <div class="md-source__repository">
-    {{ _repo_name }}
-  </div>
-</a>
+<div class="hf-header-source">
+  <a href="mailto:contact@hakoforge.com" title="Contact us" aria-label="Contact us" class="hf-header-mail">
+    {% include ".icons/fontawesome/solid/envelope.svg" %}
+  </a>
+  <a href="{{ _repo_url }}" title="{{ lang.t('source') }}" class="md-source" data-md-component="source">
+    <div class="md-source__icon md-icon">
+      {% set icon = config.theme.icon.repo or "fontawesome/brands/git-alt" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </div>
+    <div class="md-source__repository">
+      {{ _repo_name }}
+    </div>
+  </a>
+</div>

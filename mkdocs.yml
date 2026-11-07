@@ -131,10 +131,6 @@ extra_css:
 
 # Footer
 extra:
-  social:
-    - icon: fontawesome/solid/envelope
-      link: mailto:contact@hakoforge.com
-    - icon: fontawesome/brands/github
-      link: https://github.com/hakoforge
+  generator: false
   version:
     provider: mike
