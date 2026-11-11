@@ -44,7 +44,7 @@ With the switch in this position, all fan headers will be controlled by the powe
 ## 8-pin PCIe Connectors
 <div align="center" markdown="1">
 
-![8-Pin Diagram](imgs/PowerboardDiagram.jpg){: style="width: 400px; height: auto;"}
+![8-Pin Diagram](imgs/power_board_rev2.5_colored_transparent.webp){: style="width: 400px; height: auto;"}
 
 </div>
 Each 8-Pin PCIe connector powers a specific set of hardware. If there is a set of hardware that is not being used in your configuration, connection is optional. 

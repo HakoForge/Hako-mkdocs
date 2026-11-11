@@ -36,7 +36,7 @@ The powerboard provides clean, regulated power distribution for all storage devi
 1. Mount the powerboard in designated area of chassis (see above image) onto standoffs with the 4 provided screws.
 
 ## **Power Distribution Map**
-![Powerboard Diagram](../imgs/PowerboardDiagram.jpg)
+![Powerboard Diagram](../imgs/power_board_rev2.5_colored_transparent.webp)
 
 ### Input Connections
 Each 8-Pin PCIe connector powers a specific set of hardware. If there is a set of hardware that is not being used in your configuration, connection is optional. 
