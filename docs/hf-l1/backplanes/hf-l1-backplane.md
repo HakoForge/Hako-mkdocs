@@ -32,6 +32,11 @@ The HF-L1 ships with 1 preinstalled backplane that provides power and data conne
 
 </div>
 
+!!! info "Drive Spin-Up"
+    The current revision does not use staggered spin-up or active inrush limiting; it relies on drives that support **Power-Up In Standby (PUIS)**. For a fully populated array of 3.5" drives, enabling PUIS is recommended so the drives don't all spin up the instant power is applied — drives such as the Seagate Exos series support it. If you use older drives that do not support PUIS, the backplane is still built with components rated to handle the high inrush current.
+
+    The backplane powers only the **12V and 5V** rails — **pin 3 (3.3V / PWDIS) is not powered** — so drives that use the PWDIS feature spin up normally.
+
 ## Backplane Diagram
 
 ![HF-L1 backplane diagram](../imgs/backplane-3.webp){: style="max-width: 700px; width: 100%;"}

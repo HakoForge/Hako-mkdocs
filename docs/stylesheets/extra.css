@@ -138,7 +138,14 @@
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   }
 
-  /* Homepage product cards: equal-width, center-aligned manual buttons */
+  /* Homepage product cards: equal-width manual buttons pinned to card bottom */
+  .md-typeset .grid.cards > ul > li {
+    display: flex;
+    flex-direction: column;
+  }
+  .md-typeset .grid.cards > ul > li > p:last-child {
+    margin-top: auto;
+  }
   .md-typeset .grid.cards .md-button.hf-primary {
     display: block;
     width: 100%;

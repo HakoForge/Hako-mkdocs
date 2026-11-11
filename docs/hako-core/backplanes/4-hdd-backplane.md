@@ -31,6 +31,12 @@ This backplane is optimized for traditional 3.5" hard disk drives, providing the
 
 </div>
 
+!!! info "Power Rating & Drive Spin-Up"
+    The **53 W** figure above is a conservative steady-state rating for normal operation. The backplane is built to tolerate the much higher transient inrush of hard drives spinning up — the hardware can handle peaks of up to **264 W**.
+
+    The current revision does **not** use staggered spin-up or active inrush limiting; it relies on drives that support **Power-Up In Standby (PUIS)**. For large SATA arrays (for example, a fully populated chassis of 3.5" drives), enabling PUIS is recommended so the drives don't all spin up the instant power is applied — drives such as the Seagate Exos series support it. If you use older drives that do not support PUIS, the backplanes and power board are still built with components rated to handle the high inrush current.
+
+    The backplane powers only the **12V and 5V** rails — **pin 3 (3.3V / PWDIS) is not powered** — so drives that use the PWDIS feature spin up normally.
 
 ## Backplane Diagram
 

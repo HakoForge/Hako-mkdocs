@@ -41,6 +41,9 @@ The powerboard provides clean, regulated power distribution for all storage devi
 ### Input Connections
 Each 8-Pin PCIe connector powers a specific set of hardware. If there is a set of hardware that is not being used in your configuration, connection is optional. 
 
+!!! info "Input Power & Spin-Up"
+    The 150 W per-connector rating is a conservative **continuous** figure (each input is shared between two backplanes). A modern PSU's 18 AWG PCIe cable can carry roughly **396 W continuous / 540 W peak**, leaving ample headroom for the brief inrush when drives spin up. The power board does not stagger spin-up; for large SATA arrays, enable **PUIS** on the drives — see the [4-HDD Backplane](../backplanes/4-hdd-backplane.md) page.
+
 !!! info "Connector Labels"
     The **IN 1–4** labels are for ease of use; they map to the board's silkscreened **J** connectors shown on the map above — **IN 1 = J4, IN 2 = J3, IN 3 = J2, IN 4 = J1** (the J numbers run opposite to the IN numbers).
 ### 8-Pin PCIe IN 1

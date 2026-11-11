@@ -39,9 +39,12 @@
 
 The Hako-Core includes 2 powerboards, making it capable of powering drives up to **1,200 Watts** (150 watts maximum per PCIe connector).
 
+!!! info "Steady-State Ratings & Spin-Up Headroom"
+    The 1,200 W total and 150 W per-connector figures are **continuous** ratings. There is substantial headroom for the brief inrush when drives spin up: each PCIe 8-pin input is shared between two backplanes, and a modern PSU's 18 AWG PCIe cable can carry roughly 396 W continuous / 540 W peak. A fully populated 36-drive SATA build spinning up at once is a supported, tested configuration. For large arrays we recommend enabling **PUIS** on the drives — see the [4-HDD Backplane](backplanes/4-hdd-backplane.md) page for spin-up details.
+
 ### Drive Capacity
 
-The Hako-Core uses a modular backplane system. It has **3 rows**, and each row has **3 full-size backplane spots** plus **1 smaller hybrid spot**. The full-size backplanes can be mixed and matched across the spots to suit your storage needs.
+The Hako-Core uses a modular backplane system. It has **3 rows**, and each row has **3 full-size backplane spots** plus **1 smaller hybrid spot** (**position 4** in each row). The full-size backplanes can be mixed and matched across the spots to suit your storage needs.
 
 <div class="table-center" markdown="1">
 
